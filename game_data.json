@@ -1,0 +1,168 @@
+{
+    "factions": {
+        "Rebels": {
+            "units": {
+                "Luke Skywalker": {
+                    "points": 160,
+                    "unit_type": "Commander",
+                    "upgrade_slots": ["Force", "Force", "Gear"]
+                },
+                "Rebel Troopers": {
+                    "points": 40,
+                    "unit_type": "Corps",
+                    "upgrade_slots": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "AT-RT": {
+                    "points": 55,
+                    "unit_type": "Support",
+                    "upgrade_slots": ["Hardpoint", "Comms", "Pilot"]
+                }
+            },
+            "command_cards": {
+                "Son of Skywalker": {
+                    "type": "1-Pip"
+                },
+                "My Ally Is the Force": {
+                    "type": "2-Pip"
+                },
+                "Return of the Jedi": {
+                    "type": "3-Pip"
+                }
+            }
+        },
+        "Empire": {
+            "units": {
+                "Darth Vader": {
+                    "points": 175,
+                    "unit_type": "Commander",
+                    "upgrade_slots": ["Force", "Force", "Gear"]
+                },
+                "Stormtroopers": {
+                    "points": 44,
+                    "unit_type": "Corps",
+                    "upgrade_slots": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "74-Z Speeder Bikes": {
+                    "points": 90,
+                    "unit_type": "Support",
+                    "upgrade_slots": ["Comms"]
+                }
+            },
+            "command_cards": {
+                "Implacable": {
+                    "type": "1-Pip"
+                },
+                "New Ways to Motivate Them": {
+                    "type": "2-Pip"
+                },
+                "Master of Evil": {
+                    "type": "3-Pip"
+                }
+            }
+        },
+        "Republic": {
+            "units": {
+                "Obi-Wan Kenobi": {
+                    "points": 170,
+                    "unit_type": "Commander",
+                    "upgrade_slots": ["Force", "Force", "Command"]
+                },
+                "Phase I Clone Troopers": {
+                    "points": 52,
+                    "unit_type": "Corps",
+                    "upgrade_slots": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "BARC Speeder": {
+                    "points": 75,
+                    "unit_type": "Support",
+                    "upgrade_slots": ["Gunner", "Comms"]
+                }
+            },
+            "command_cards": {
+                "Hello There!": {
+                    "type": "1-Pip"
+                },
+                "General Kenobi": {
+                    "type": "2-Pip"
+                },
+                "Negotiations": {
+                    "type": "3-Pip"
+                }
+            }
+        },
+        "CIS": {
+            "units": {
+                "General Grievous": {
+                    "points": 175,
+                    "unit_type": "Commander",
+                    "upgrade_slots": ["Command", "Training", "Training"]
+                },
+                "B1 Battle Droids": {
+                    "points": 36,
+                    "unit_type": "Corps",
+                    "upgrade_slots": ["Heavy Weapon", "Personnel", "Comms"]
+                },
+                "Droidekas": {
+                    "points": 100,
+                    "unit_type": "Support",
+                    "upgrade_slots": ["Comms"]
+                }
+            },
+            "command_cards": {
+                "Trained in Your Jedi Arts": {
+                    "type": "1-Pip"
+                },
+                "Supreme Commander": {
+                    "type": "2-Pip"
+                },
+                "Crush Them!": {
+                    "type": "3-Pip"
+                }
+            }
+        },
+        "Mercenaries": {
+            "units": {
+                "Cad Bane": {
+                    "points": 125,
+                    "unit_type": "Operative",
+                    "upgrade_slots": ["Training", "Gear", "Comms"]
+                },
+                "IG-88": {
+                    "points": 120,
+                    "unit_type": "Operative",
+                    "upgrade_slots": ["Training", "Comms"]
+                },
+                "Bossk": {
+                    "points": 115,
+                    "unit_type": "Operative",
+                    "upgrade_slots": ["Training", "Gear", "Comms"]
+                }
+            },
+            "command_cards": {
+                "I'm Your Worst Nightmare": {
+                    "type": "1-Pip"
+                },
+                "Lying in Wait": {
+                    "type": "2-Pip"
+                },
+                "Merciless Munitions": {
+                    "type": "3-Pip"
+                }
+            }
+        }
+    },
+    "upgrade_cards": {
+        "Force Push": {
+            "type": "Force",
+            "points": 10
+        },
+        "Electrobinoculars": {
+            "type": "Gear",
+            "points": 8
+        },
+        "Comms Jammer": {
+            "type": "Comms",
+            "points": 15
+        }
+    }
+}
