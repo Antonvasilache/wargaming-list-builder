@@ -3,15 +3,20 @@ from window import Window
 from faction import Faction
 from listBuilder import ListBuilder
 from tkinter import Label, Frame, Button, Canvas, Scrollbar
+import json
 
 
 class App:
-    def __init__(self):        
+    def __init__(self, data_file='game_data.json'):        
         self.faction_names = ["Rebels", "Empire", "Republic", "CIS", "Mercenaries"]
         self.factions = {name: Faction(name) for name in self.faction_names}
         self.window = Window(width=1280, height=1024)
-        self.setup_start_menu()      
-    
+        self.data = self.load_game_data(data_file)
+        self.setup_start_menu()
+        
+    def load_game_data(self, file_path):        
+        with open(file_path, 'r') as file:
+            return json.load(file)   
         
     def setup_start_menu(self):
         self.window.add_label("Select your faction: ")
@@ -141,20 +146,60 @@ class App:
         upgrades = unit_info['available_upgrades']       
         
         new_unit = Unit(unit_name, points, type, upgrades)    
-        army.add_unit(new_unit)
+        army.add_unit(new_unit)     
+        
+        # Frame to hold the upgrade type buttons
+        upgrade_types_frame = Frame(unit_frame)
+        upgrade_types_frame.pack(pady=5, fill='x')     
+        
+        # Frame to hold the upgrade buttons
+        upgrade_buttons_frame = Frame(unit_frame)
+        upgrade_buttons_frame.pack(pady=5, fill='x')  
         
         for upgrade_type in upgrades:
-            upgrade_button = Button(
-                unit_frame,
+            upgrade_type_button = Button(
+                upgrade_types_frame,
                 text=upgrade_type,
-                command = lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type),
+                command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame),
                 padx=5, pady=2
                 )
-            upgrade_button.pack(side='left', padx=5, pady=5)
+            upgrade_type_button.pack(side='left', padx=5, pady=5)
+            
        
-    def select_upgrade(self, unit, upgrade_type):
-        pass    
         
+    def select_upgrade(self, unit, upgrade_type, parent_frame):        
+        # Clear any existing upgrades in the upgrade_buttons_frame
+        for frame in self.selected_units_frame.winfo_children(): # unit_frame            
+            for child_frame in frame.winfo_children(): # upgrade_types_frame, upgrade_buttons_frame                
+                if child_frame == parent_frame:
+                    for widget in child_frame.winfo_children():
+                        widget.destroy()   
+            
+        # Fetch the upgrades for the specific type from JSON data   
+        upgrades = self.data['upgrade_cards']['type'][upgrade_type]   
         
+        # Display available upgrades under the select unit's frame
+        for upgrade_name, upgrade_value in upgrades.items():
+            upgrade_row_frame = Frame(parent_frame)
+            upgrade_row_frame.pack(fill='x', pady=5)
+            
+            upgrade_button = Button(
+                upgrade_row_frame,
+                text=upgrade_name,
+                command=lambda u_name=upgrade_name, u_value=upgrade_value: self.show_upgrade_details(u_name, u_value),                
+            )
+            upgrade_button.pack(side='left', padx=(0,5), pady=5)
+            
+            add_button = Button(
+                upgrade_row_frame,
+                text='Add',
+                command=lambda u_name=upgrade_name, u_value=upgrade_value: unit.add_upgrade({u_name: u_value})                
+            )
+            add_button.pack(side='right', pady=5)
+        
+    def show_upgrade_details(name, value):
+        pass
+    
+    
     def run(self):
         self.window.start()
