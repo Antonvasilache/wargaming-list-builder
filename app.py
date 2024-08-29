@@ -52,7 +52,7 @@ class App:
         
         # Add labels for each section
         Label(self.available_units_frame, text="Available units", font=("Helvetica", 14)).pack(pady=10)
-        Label(self.unit_details_frame, text="Unit details", font=("Helvetica", 14)).pack(pady=10)
+        Label(self.unit_details_frame, text="Details", font=("Helvetica", 14)).pack(pady=10)
         Label(self.selected_units_frame, text="Selected units", font=("Helvetica", 14)).pack(pady=10)
         
         # Scrollable frame setup for available units
@@ -117,7 +117,7 @@ class App:
             
             add_button = Button(
                 unit_row_frame,
-                text="Add",
+                text="+",
                 command=lambda name=unit_name: self.add_unit_to_list(name, faction, army_list)
             )
             add_button.pack(side='right', pady=5)
@@ -213,7 +213,7 @@ class App:
             
             add_button = Button(
                 upgrade_row_frame,
-                text='Add',
+                text='+',
                 command=lambda u_name=upgrade_name, u_value=upgrade_value: (add_upgrade_to_list_conditional(u_name, u_value), unit.add_upgrade(u_name, u_value, upgrade_type))
             )
             add_button.pack(side='right', pady=5)            
@@ -223,6 +223,7 @@ class App:
         for frame in self.selected_units_frame.winfo_children():
             for index, child_frame in enumerate(frame.winfo_children()):
                 if isinstance(child_frame, Label) and unit.name in child_frame.cget('text'):
+                    child_frame.config(text=f"{unit.name} {unit.points + upgrade_value['points']}p")
                     upgrade_frame = Frame(frame)
                     
                     upgrade_button = Button(
@@ -233,10 +234,14 @@ class App:
                     )
                     upgrade_button.pack(side='left', padx=(0,5), pady=5)
                     
+                    def remove_update_visual(cf=child_frame):
+                        cf.config(text=f"{unit.name} {unit.points - upgrade_value['points']}p")
+                        upgrade_frame.destroy()
+                    
                     remove_button = Button(
                         upgrade_frame,
                         text='-',
-                        command=lambda: (upgrade_frame.destroy(), unit.remove_upgrade(upgrade_name, upgrade_type)),
+                        command=lambda: (remove_update_visual(), unit.remove_upgrade(upgrade_name, upgrade_type)),
                         padx=5, pady=5
                     )
                     remove_button.pack(side='left', padx=(0,5), pady=5)

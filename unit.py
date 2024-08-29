@@ -25,6 +25,7 @@ class Unit:
             if slot['type'] == type and slot['upgrade'] is None:     
                 upgrade = Upgrade(name, value['points'], type)
                 slot['upgrade'] = upgrade
+                self.points += value['points']
                 print(self.upgrade_slots)
                 print('upgrade added successfully')
                 return
@@ -38,6 +39,7 @@ class Unit:
                 slot['type'] == type 
                 and slot['upgrade'] is not None 
                 and slot['upgrade'].name == name):
+                self.points -= slot['upgrade'].points
                 slot['upgrade'] = None                       
                 print(self.upgrade_slots)
                 print('upgrade removed successfully')
