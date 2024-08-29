@@ -41,7 +41,7 @@ class App:
         self.window.add_label("Select your units:") 
         
         # Create and pack frames for each section
-        self.available_units_frame = Frame(self.window.root, width=100)
+        self.available_units_frame = Frame(self.window.root, width=160)
         self.available_units_frame.pack(side='left', padx=10, pady=10, fill='both', expand=True)
         
         self.unit_details_frame = Frame(self.window.root)
@@ -100,11 +100,18 @@ class App:
             unit_row_frame = Frame(inner_frame)
             unit_row_frame.pack(fill='x', pady=5)
             
+            unit_text = f"{unit_name} ({unit_info['unit_type']})"
+            points_text = f"{unit_info['points']}p"
+            
+            max_length = 35
+            
+            formatted_text = f"{unit_text:<{max_length - len(points_text)}}{points_text:>{len(points_text)}}"
+            
             unit_button = Button(
                 unit_row_frame, 
-                text=f"{unit_name} ({unit_info['unit_type']})",
+                text=formatted_text,
                 command=lambda name=unit_name: self.show_unit_details(name, faction),
-                width=40
+                width=45
             )
             unit_button.pack(side='left', padx=(0,5), pady=5)
             
@@ -134,10 +141,12 @@ class App:
         details_label.pack(pady=10)
     
     def add_unit_to_list(self, unit_name, faction, army):
+        unit_info = faction.available_units[unit_name]
+        
         unit_frame = Frame(self.selected_units_frame)
         unit_frame.pack(pady=10, fill='x')        
         
-        selected_unit_label = Label(unit_frame, text=unit_name, font=("Helvetica", 12, "bold"))
+        selected_unit_label = Label(unit_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
         selected_unit_label.pack(anchor='w')
         
         unit_info = faction.available_units[unit_name]
@@ -145,7 +154,7 @@ class App:
         type = unit_info['unit_type'] 
         upgrades = unit_info['available_upgrades']       
         
-        new_unit = Unit(unit_name, points, type, upgrades)    
+        new_unit = Unit(unit_name, points, type, upgrades)          
         army.add_unit(new_unit)     
         
         # Frame to hold the upgrade type buttons
@@ -190,15 +199,62 @@ class App:
             )
             upgrade_button.pack(side='left', padx=(0,5), pady=5)
             
+            # Upgrade should be visually added, only if the upgrade slot is empty
+            def add_upgrade_to_list_conditional(upgrade_name, upgrade_value):                
+                for slot in unit.upgrade_slots:
+                    if slot['type'] == upgrade_type and slot['upgrade'] is None:
+                        print("upgrade being added to gui")
+                        self.add_upgrade_to_list(upgrade_name, upgrade_value, upgrade_type, unit)
+                        return
+            
             add_button = Button(
                 upgrade_row_frame,
                 text='Add',
-                command=lambda u_name=upgrade_name, u_value=upgrade_value: unit.add_upgrade({u_name: u_value})                
+                command=lambda u_name=upgrade_name, u_value=upgrade_value: (add_upgrade_to_list_conditional(u_name, u_value), unit.add_upgrade(u_name, u_value, upgrade_type))
             )
-            add_button.pack(side='right', pady=5)
+            add_button.pack(side='right', pady=5)            
         
-    def show_upgrade_details(name, value):
-        pass
+    def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit):
+        print(f"{upgrade_name} upgrade being added to list, for unit {unit.name}")
+        for frame in self.selected_units_frame.winfo_children():
+            for index, child_frame in enumerate(frame.winfo_children()):
+                if isinstance(child_frame, Label) and unit.name in child_frame.cget('text'):
+                    upgrade_frame = Frame(frame)
+                    
+                    upgrade_button = Button(
+                        upgrade_frame,
+                        text=upgrade_name,
+                        command=lambda: self.show_upgrade_details(upgrade_name, upgrade_value),
+                        padx=5, pady=5
+                    )
+                    upgrade_button.pack(side='left', padx=(0,5), pady=5)
+                    
+                    remove_button = Button(
+                        upgrade_frame,
+                        text='-',
+                        command=lambda: (upgrade_frame.destroy(), unit.remove_upgrade(upgrade_name, upgrade_type)),
+                        padx=5, pady=5
+                    )
+                    remove_button.pack(side='left', padx=(0,5), pady=5)
+                    
+                    if len(frame.winfo_children()) > index + 1:
+                        upgrade_frame.pack(before=frame.winfo_children()[index+1], pady=5, fill='x')
+                    else:
+                        upgrade_frame.pack(pady=5, fill='x')                
+                    
+        
+    def show_upgrade_details(self, name, value):
+        widgets = self.unit_details_frame.winfo_children()        
+        for index in range (1, len(widgets)):
+            widgets[index].destroy()  
+        
+        details_label = Label(
+            self.unit_details_frame, 
+            text=f"Upgrade name: {name}\n Points: {value['points']}"
+            )
+        details_label.pack(pady=10)
+            
+         
     
     
     def run(self):

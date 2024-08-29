@@ -1,5 +1,8 @@
 class Upgrade:
-    def __init__(self, name, type, points):
+    def __init__(self, name, points, type):
         self.name = name
-        self.type = type
         self.points = points
+        self.type = type
+        
+    def __repr__(self):
+        return f"{self.name}: {self.points}"
