@@ -200,7 +200,11 @@ class App:
             upgrade_button.pack(side='left', padx=(0,5), pady=5)
             
             # Upgrade should be visually added, only if the upgrade slot is empty
-            def add_upgrade_to_list_conditional(upgrade_name, upgrade_value):                
+            def add_upgrade_to_list_conditional(upgrade_name, upgrade_value):
+                for slot in unit.upgrade_slots:
+                    if slot['upgrade'] is not None and slot['upgrade'].name == upgrade_name:
+                        return
+                           
                 for slot in unit.upgrade_slots:
                     if slot['type'] == upgrade_type and slot['upgrade'] is None:
                         print("upgrade being added to gui")
