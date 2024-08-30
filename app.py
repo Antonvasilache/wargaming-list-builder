@@ -4,6 +4,7 @@ from faction import Faction
 from listBuilder import ListBuilder
 from tkinter import Label, Frame, Button, Canvas, Scrollbar
 import json
+from helpers import *
 
 
 class App:
@@ -80,22 +81,7 @@ class App:
         # Configure the canvas to use the scrollbar
         self.available_units_canvas.configure(yscrollcommand=scrollbar.set)
         
-        # Enable mouse wheel scrolling
-        def on_mouse_wheel(event):
-            if event.delta:
-                self.available_units_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
-            else:
-                if event.num == 4:
-                    self.available_units_canvas.yview_scroll(-1, "units")
-                elif event.num == 5:
-                    self.available_units_canvas.yview_scroll(1, "units")
-                    
-        def bind_mousewheel_to_widget(widget):
-            widget.bind("<MouseWheel>", on_mouse_wheel)  # Windows and MacOS
-            widget.bind("<Button-4>", on_mouse_wheel)    # Linux Scroll Up
-            widget.bind("<Button-5>", on_mouse_wheel)    # Linux Scroll Down
-            for child in widget.winfo_children():
-                bind_mousewheel_to_widget(child)  # Recursively bind to all children   
+        
         
         # Create and pack buttons for each unit
         for unit_name, unit_info in faction.available_units.items():
@@ -124,9 +110,10 @@ class App:
             )
             add_button.pack(side='right', pady=5)
             
-        bind_mousewheel_to_widget(self.available_units_canvas)
-        bind_mousewheel_to_widget(available_inner_frame)
-        bind_mousewheel_to_widget(unit_row_frame)       
+            bind_mousewheel_to_widget(unit_row_frame, self.available_units_canvas)       
+            
+        bind_mousewheel_to_widget(self.available_units_canvas, self.available_units_canvas)
+        bind_mousewheel_to_widget(available_inner_frame, self.available_units_canvas)
         
         # Make sure the frames are visible
         self.available_units_frame.pack_propagate(False)
