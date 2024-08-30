@@ -5,186 +5,223 @@
                 "Luke Skywalker": {
                     "points": 120,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Force", "Command", "Training", "Gear"]
                 },
                 "Cassian Andor": {
                     "points": 90,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Armament"]
                 },
                 "Han Solo": {
                     "points": 100,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"]
                 },
                 "Lando Calrissian": {
                     "points": 95,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"]
                 },
                 "Pyke Syndicate Capo": {
                     "points": 48,
                     "unit_type": "Commander",
+                    "unique": 0,
                     "available_upgrades": ["Command", "Gear"]
                 },
                 "Rebel Officer": {
                     "points": 50,
                     "unit_type": "Commander",
+                    "unique": 0,
                     "available_upgrades": ["Command", "Gear"]
                 },
                 "Wicket": {
                     "points": 70,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Training", "Training"]
                 },
                 "Jyn Erso": {
                     "points": 90,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear", "Armament"]
                 },
                 "Leia Organa": {
                     "points": 75,
                     "unit_type": "Commander",
+                    "unique": 1,
                     "available_upgrades": ["Command", "Command", "Training", "Gear"]
                 },
                 "Ahsoka Tano": {
                     "points": 145,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"]
                 },
                 "Boba Fett": {
                     "points": 120,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Gear"]
                 },
                 "Chewbacca": {
                     "points": 90,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"]
                 },
                 "Din Djarin": {
                     "points": 95,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"]
                 },
                 "IG-11": {
                     "points": 105,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Protocol", "Training", "Comms", "Gear"]
                 },
                 "Luke Skywalker (Jedi Knight)": {
                     "points": 175,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Training"]
                 },
                 "R2-D2": {
                     "points": 55,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Comms"]
                 },
                 "Sabine Wren": {
                     "points": 125,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Training", "Gear", "Gear", "Armament"]
                 },
                 "The Bad Batch": {
                     "points": 140,
                     "unit_type": "Operative",
+                    "unique": 1,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"]
                 },
                 "Ewok Skirmishers": {
                     "points": 40,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"]
                 },
                 "Rebel Troopers": {
                     "points": 40,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
                 },
                 "Rebel Veterans": {
                     "points": 48,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades", "Gear", "Training", "Comms"]
                 },
                 "Fleet Troopers": {
                     "points": 40,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades", "Gear", "Training", "Comms"]
                 },
                 "Pyke Syndicate Foot Soldiers": {
                     "points": 44,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
                 },
                 "Ewok Slingers": {
                     "points": 35,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"]
                 },
                 "Mandalorian Resistance (Clan Wren)": {
                     "points": 30,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
                 },
                 "Mandalorian Resistance": {
                     "points": 68,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
                 },
                 "Rebel Commandos": {
                     "points": 48,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"]
                 },
                 "Rebel Pathfinders": {
                     "points": 56,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
                 },
                 "Wookie Warriors (Kashyyyk Resistance)": {
                     "points": 72,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"]
                 },
                 "Wookie Warriors (Freedom Fighters)": {
                     "points": 69,
                     "unit_type": "Special Forces",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"]
                 },
                 "1.4 FD Laser Cannon Team": {
                     "points": 65,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Comms", "Generator"]
                 },
                 "AT-RT": {
                     "points": 50,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Hardpoint", "Comms"]
                 },
                 "Swoop Bike Riders": {
                     "points": 70,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Comms"]
                 },
                 "Tauntaun Riders": {
                     "points": 95,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Training", "Comms"]
                 },
                 "A-A5 Speeder Truck": {
                     "points": 65,
                     "unit_type": "Heavy",
+                    "unique": 0,
                     "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"]
                 },
                 "T-47 Airspeeder": {
                     "points": 125,
                     "unit_type": "Heavy",
+                    "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Comms"]
                 },
                 "X-34 Landspeeder": {
                     "points": 55,
                     "unit_type": "Heavy",
+                    "unique": 0,
                     "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"]
                 }
             },

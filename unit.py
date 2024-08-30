@@ -1,11 +1,12 @@
 from upgrade import Upgrade
 
 class Unit:
-    def __init__(self, name, points, unit_type, upgrades):
+    def __init__(self, name, points, unit_type, upgrades, unique):
         self.name = name
         self.points = points
         self.unit_type = unit_type
         self.available_upgrades = upgrades
+        self.unique = unique
         self.upgrade_slots = [
             {'type': upgrade_type, 'upgrade': None}
             for upgrade_type in self.available_upgrades]
@@ -46,5 +47,10 @@ class Unit:
                 return
             
         print("No upgrade found to remove")
+        
+    def __eq__(self, other):
+        if isinstance(other, Unit):
+            return self.name == other.name
+        return False
         
         

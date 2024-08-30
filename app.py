@@ -159,49 +159,51 @@ class App:
         unit_info = faction.available_units[unit_name]
         points = unit_info['points']
         type = unit_info['unit_type'] 
-        upgrades = unit_info['available_upgrades']    
+        unique = unit_info['unique']
+        upgrades = unit_info['available_upgrades']   
            
-        new_unit = Unit(unit_name, points, type, upgrades)          
-        army.add_unit(new_unit)     
-        
-        # Frame to hold the unit label and the remove button on the same row
-        unit_frame = Frame(self.selected_inner_frame)
-        unit_frame.pack(pady=10, fill='x')        
-        
-        # Frame to hold the label and remove button side by side
-        unit_row_frame = Frame(unit_frame)
-        unit_row_frame.pack(fill='x') 
-        
-        selected_unit_label = Label(unit_row_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
-        selected_unit_label.pack(side='left', anchor='w')
-        
-        # Add a remove button aligned to the right
-        remove_button = Button(
-            unit_row_frame,
-            text='-',
-            command=lambda: (army.remove_unit(new_unit), unit_frame.destroy()),
-            padx=5, pady=5
-        )
-        remove_button.pack(side='right')
-
-        # Frame to hold the upgrade type buttons
-        upgrade_types_frame = Frame(unit_frame)
-        upgrade_types_frame.pack(pady=5, fill='x')     
-        
-        # Frame to hold the upgrade buttons
-        upgrade_buttons_frame = Frame(unit_frame)
-        upgrade_buttons_frame.pack(pady=5, fill='x')  
-        
-        bind_mousewheel_to_widget(unit_frame, self.selected_units_canvas)
-        
-        for upgrade_type in upgrades:
-            upgrade_type_button = Button(
-                upgrade_types_frame,
-                text=upgrade_type,
-                command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame),
-                padx=5, pady=2
+        new_unit = Unit(unit_name, points, type, upgrades, unique) 
+        if new_unit.unique == 0 or new_unit not in army.selected_units:         
+            army.add_unit(new_unit)   
+            
+            # Frame to hold the unit label and the remove button on the same row
+            unit_frame = Frame(self.selected_inner_frame)
+            unit_frame.pack(pady=10, fill='x')        
+            
+            # Frame to hold the label and remove button side by side
+            unit_row_frame = Frame(unit_frame)
+            unit_row_frame.pack(fill='x') 
+            
+            selected_unit_label = Label(unit_row_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
+            selected_unit_label.pack(side='left', anchor='w')
+            
+            # Add a remove button aligned to the right
+            remove_button = Button(
+                unit_row_frame,
+                text='-',
+                command=lambda: (army.remove_unit(new_unit), unit_frame.destroy()),
+                padx=5, pady=5
             )
-            upgrade_type_button.pack(side='left', padx=5, pady=5)
+            remove_button.pack(side='right')
+
+            # Frame to hold the upgrade type buttons
+            upgrade_types_frame = Frame(unit_frame)
+            upgrade_types_frame.pack(pady=5, fill='x')     
+            
+            # Frame to hold the upgrade buttons
+            upgrade_buttons_frame = Frame(unit_frame)
+            upgrade_buttons_frame.pack(pady=5, fill='x')  
+            
+            bind_mousewheel_to_widget(unit_frame, self.selected_units_canvas)
+            
+            for upgrade_type in upgrades:
+                upgrade_type_button = Button(
+                    upgrade_types_frame,
+                    text=upgrade_type,
+                    command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame),
+                    padx=5, pady=2
+                )
+                upgrade_type_button.pack(side='left', padx=5, pady=5)
 
     
         

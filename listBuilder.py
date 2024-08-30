@@ -25,13 +25,17 @@ class ListBuilder:
         self.current_unit_types = {unit_type: 0 for unit_type in self.allowed_unit_types.keys()}
         
         
-    def add_unit(self, unit):
-        self.selected_units.append(unit)
-        self.activations += 1
-        self.current_points += unit.points
-        self.current_unit_types[unit.unit_type] += 1        
-        print(self.current_unit_types)
-      
+    def add_unit(self, unit):        
+        if unit.unique == 0 or unit not in self.selected_units:
+            self.selected_units.append(unit)
+            self.activations += 1
+            self.current_points += unit.points
+            self.current_unit_types[unit.unit_type] += 1        
+            print(self.current_unit_types)
+        else:
+            print("Unique unit can only be added once")
+        
+        
     
     def remove_unit(self, unit):
         self.selected_units.remove(unit)
@@ -55,4 +59,6 @@ class ListBuilder:
     def clear_list(self):
         # add 'are you sure' message
         pass
+    
+    
     
