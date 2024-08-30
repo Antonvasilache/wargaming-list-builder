@@ -56,48 +56,50 @@ class App:
         Label(self.selected_units_frame, text="Selected units", font=("Helvetica", 14)).pack(pady=10)
         
         # Scrollable frame setup for available units
-        available_units_canvas = Canvas(self.available_units_frame, height=400)
-        available_units_canvas.pack(side='left', fill='both', expand=True)
+        self.available_units_canvas = Canvas(self.available_units_frame, height=400)
+        self.available_units_canvas.pack(side='left', fill='both', expand=True)
         
         # Create a vertical scrollbar linked to the canvas
         scrollbar = Scrollbar(
             self.available_units_frame, 
             orient="vertical", 
-            command=available_units_canvas.yview
+            command=self.available_units_canvas.yview
             )
         scrollbar.pack(side='right', fill='y')
         
         # Create an inner frame to hold the actual content
-        inner_frame = Frame(available_units_canvas)
-        inner_frame.bind(
+        available_inner_frame = Frame(self.available_units_canvas)
+        available_inner_frame.bind(
             "<Configure>", 
-            lambda e: available_units_canvas.configure(scrollregion=available_units_canvas.bbox("all"))
+            lambda e: self.available_units_canvas.configure(scrollregion=self.available_units_canvas.bbox("all"))
             )
         
         # Create a window inside the canvas to contain the inner frame
-        available_units_canvas.create_window((0,0), window=inner_frame, anchor='nw')
+        self.available_units_canvas.create_window((0,0), window=available_inner_frame, anchor='nw')
         
         # Configure the canvas to use the scrollbar
-        available_units_canvas.configure(yscrollcommand=scrollbar.set)
+        self.available_units_canvas.configure(yscrollcommand=scrollbar.set)
         
         # Enable mouse wheel scrolling
         def on_mouse_wheel(event):
             if event.delta:
-                available_units_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+                self.available_units_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
             else:
                 if event.num == 4:
-                    available_units_canvas.yview_scroll(-1, "units")
+                    self.available_units_canvas.yview_scroll(-1, "units")
                 elif event.num == 5:
-                    available_units_canvas.yview_scroll(1, "units")
+                    self.available_units_canvas.yview_scroll(1, "units")
                     
-        available_units_canvas.bind_all("<MouseWheel>", on_mouse_wheel)
-        available_units_canvas.bind_all("<Button-4>", on_mouse_wheel)
-        available_units_canvas.bind_all("<Button-5>", on_mouse_wheel)
-        
+        def bind_mousewheel_to_widget(widget):
+            widget.bind("<MouseWheel>", on_mouse_wheel)  # Windows and MacOS
+            widget.bind("<Button-4>", on_mouse_wheel)    # Linux Scroll Up
+            widget.bind("<Button-5>", on_mouse_wheel)    # Linux Scroll Down
+            for child in widget.winfo_children():
+                bind_mousewheel_to_widget(child)  # Recursively bind to all children   
         
         # Create and pack buttons for each unit
         for unit_name, unit_info in faction.available_units.items():
-            unit_row_frame = Frame(inner_frame)
+            unit_row_frame = Frame(available_inner_frame)
             unit_row_frame.pack(fill='x', pady=5)
             
             unit_text = f"{unit_name} ({unit_info['unit_type']})"
@@ -121,6 +123,10 @@ class App:
                 command=lambda name=unit_name: self.add_unit_to_list(name, faction, army_list)
             )
             add_button.pack(side='right', pady=5)
+            
+        bind_mousewheel_to_widget(self.available_units_canvas)
+        bind_mousewheel_to_widget(available_inner_frame)
+        bind_mousewheel_to_widget(unit_row_frame)       
         
         # Make sure the frames are visible
         self.available_units_frame.pack_propagate(False)
