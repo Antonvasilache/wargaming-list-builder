@@ -1,10 +1,10 @@
+from helpers import *
 from unit import Unit
 from window import Window
 from faction import Faction
 from listBuilder import ListBuilder
 from tkinter import Label, Frame, Button, Canvas, Scrollbar
 import json
-from helpers import *
 
 
 class App:
@@ -60,32 +60,51 @@ class App:
         self.available_units_canvas = Canvas(self.available_units_frame, height=400)
         self.available_units_canvas.pack(side='left', fill='both', expand=True)
         
-        # Create a vertical scrollbar linked to the canvas
-        scrollbar = Scrollbar(
+        # Scrollable frame setup for selected units
+        self.selected_units_canvas = Canvas(self.selected_units_frame, height=400)
+        self.selected_units_canvas.pack(side='left', fill='both', expand=True)
+        
+        # Create a vertical scrollbar linked to the available canvas
+        available_scrollbar = Scrollbar(
             self.available_units_frame, 
             orient="vertical", 
             command=self.available_units_canvas.yview
             )
-        scrollbar.pack(side='right', fill='y')
+        available_scrollbar.pack(side='right', fill='y')
         
-        # Create an inner frame to hold the actual content
-        available_inner_frame = Frame(self.available_units_canvas)
-        available_inner_frame.bind(
+        # Create a vertical scrollbar linked to the selected canvas
+        selected_scrollbar = Scrollbar(
+            self.selected_units_frame, 
+            orient="vertical", 
+            command=self.selected_units_canvas.yview
+            )
+        selected_scrollbar.pack(side='left', fill='y')
+        
+        # Create an available inner frame to hold the actual content
+        self.available_inner_frame = Frame(self.available_units_canvas)
+        self.available_inner_frame.bind(
             "<Configure>", 
             lambda e: self.available_units_canvas.configure(scrollregion=self.available_units_canvas.bbox("all"))
             )
         
+        # Create a selected inner frame to hold the actual content
+        self.selected_inner_frame = Frame(self.selected_units_canvas)
+        self.selected_inner_frame.bind(
+            "<Configure>", 
+            lambda e: self.selected_units_canvas.configure(scrollregion=self.selected_units_canvas.bbox("all"))
+            )
+        
         # Create a window inside the canvas to contain the inner frame
-        self.available_units_canvas.create_window((0,0), window=available_inner_frame, anchor='nw')
+        self.available_units_canvas.create_window((0,0), window=self.available_inner_frame, anchor='nw')
+        self.selected_units_canvas.create_window((0,0), window=self.selected_inner_frame, anchor='nw')
         
         # Configure the canvas to use the scrollbar
-        self.available_units_canvas.configure(yscrollcommand=scrollbar.set)
-        
-        
+        self.available_units_canvas.configure(yscrollcommand=available_scrollbar.set)    
+        self.selected_units_canvas.configure(yscrollcommand=selected_scrollbar.set)    
         
         # Create and pack buttons for each unit
         for unit_name, unit_info in faction.available_units.items():
-            unit_row_frame = Frame(available_inner_frame)
+            unit_row_frame = Frame(self.available_inner_frame)
             unit_row_frame.pack(fill='x', pady=5)
             
             unit_text = f"{unit_name} ({unit_info['unit_type']})"
@@ -113,7 +132,10 @@ class App:
             bind_mousewheel_to_widget(unit_row_frame, self.available_units_canvas)       
             
         bind_mousewheel_to_widget(self.available_units_canvas, self.available_units_canvas)
-        bind_mousewheel_to_widget(available_inner_frame, self.available_units_canvas)
+        bind_mousewheel_to_widget(self.available_inner_frame, self.available_units_canvas)
+        
+        bind_mousewheel_to_widget(self.selected_units_canvas, self.selected_units_canvas)
+        bind_mousewheel_to_widget(self.selected_inner_frame, self.selected_units_canvas)
         
         # Make sure the frames are visible
         self.available_units_frame.pack_propagate(False)
@@ -136,7 +158,7 @@ class App:
     def add_unit_to_list(self, unit_name, faction, army):
         unit_info = faction.available_units[unit_name]
         
-        unit_frame = Frame(self.selected_units_frame)
+        unit_frame = Frame(self.selected_inner_frame)
         unit_frame.pack(pady=10, fill='x')        
         
         selected_unit_label = Label(unit_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
@@ -158,6 +180,8 @@ class App:
         upgrade_buttons_frame = Frame(unit_frame)
         upgrade_buttons_frame.pack(pady=5, fill='x')  
         
+        bind_mousewheel_to_widget(unit_frame, self.selected_units_canvas)
+        
         for upgrade_type in upgrades:
             upgrade_type_button = Button(
                 upgrade_types_frame,
@@ -171,7 +195,7 @@ class App:
         
     def select_upgrade(self, unit, upgrade_type, parent_frame):        
         # Clear any existing upgrades in the upgrade_buttons_frame
-        for frame in self.selected_units_frame.winfo_children(): # unit_frame            
+        for frame in self.selected_inner_frame.winfo_children(): # unit_frame            
             for child_frame in frame.winfo_children(): # upgrade_types_frame, upgrade_buttons_frame                
                 if child_frame == parent_frame:
                     for widget in child_frame.winfo_children():
@@ -184,6 +208,8 @@ class App:
         for upgrade_name, upgrade_value in upgrades.items():
             upgrade_row_frame = Frame(parent_frame)
             upgrade_row_frame.pack(fill='x', pady=5)
+            
+            bind_mousewheel_to_widget(upgrade_row_frame, self.selected_units_canvas)
             
             upgrade_button = Button(
                 upgrade_row_frame,
@@ -213,7 +239,7 @@ class App:
         
     def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit):
         print(f"{upgrade_name} upgrade being added to list, for unit {unit.name}")
-        for frame in self.selected_units_frame.winfo_children():
+        for frame in self.selected_inner_frame.winfo_children():
             for index, child_frame in enumerate(frame.winfo_children()):
                 if isinstance(child_frame, Label) and unit.name in child_frame.cget('text'):
                     child_frame.config(text=f"{unit.name} {unit.points + upgrade_value['points']}p")
@@ -237,7 +263,7 @@ class App:
                         command=lambda: (remove_update_visual(), unit.remove_upgrade(upgrade_name, upgrade_type)),
                         padx=5, pady=5
                     )
-                    remove_button.pack(side='left', padx=(0,5), pady=5)
+                    remove_button.pack(side='right', padx=(0,5), pady=5)
                     
                     if len(frame.winfo_children()) > index + 1:
                         upgrade_frame.pack(before=frame.winfo_children()[index+1], pady=5, fill='x')
