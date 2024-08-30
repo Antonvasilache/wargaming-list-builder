@@ -39,7 +39,35 @@ class App:
         army_list = ListBuilder(faction, 1000)
        
         # Add a header for the list builder
-        self.window.add_label("Select your units:") 
+        # self.window.add_label("Select your units:") 
+        self.header_frame = Frame(self.window.root, pady=10)
+        self.header_frame.pack(fill='x', pady=(10,5))
+        
+        #Label for the faction frame, aligned to the left
+        faction_label = Label(
+            self.header_frame, 
+            text=f"Faction: {faction.name}", 
+            font=("Helvetica", 12, "bold"))
+        faction_label.pack(side='left', padx=(10, 0))
+        
+        #Frame for unit types status
+        unit_status_frame = Frame(self.header_frame)
+        unit_status_frame.pack(side='left', expand=True)
+        
+        unit_status_label = Label(
+            unit_status_frame,
+            text="Commander: 0/2, Operative: 0/2, Corps: 0/6, Special Forces: 0/3, Support: 0/3, Heavy: 0/2",
+            font=("Helvetica", 10)
+        )
+        unit_status_label.pack()
+        
+        #Label for activations and points, aligned to the right
+        points_status_label = Label(
+            self.header_frame,
+            text = 'Activations: 0, Points: 0/1000',
+            font=("Helvetica", 12)
+        )
+        points_status_label.pack(side='right', padx=(0,10))
         
         # Create and pack frames for each section
         self.available_units_frame = Frame(self.window.root, width=160)
@@ -204,7 +232,6 @@ class App:
                     padx=5, pady=2
                 )
                 upgrade_type_button.pack(side='left', padx=5, pady=5)
-
     
         
     def select_upgrade(self, unit, upgrade_type, parent_frame):        
@@ -285,9 +312,8 @@ class App:
                         upgrade_frame.pack(before=frame.winfo_children()[1], pady=5, fill='x')
                     else:
                         upgrade_frame.pack(pady=5, fill='x') 
-                    return               
-                    
-        
+                    return     
+       
     def show_upgrade_details(self, name, value):
         widgets = self.unit_details_frame.winfo_children()        
         for index in range (1, len(widgets)):
@@ -298,9 +324,6 @@ class App:
             text=f"Upgrade name: {name}\n Points: {value['points']}"
             )
         details_label.pack(pady=10)
-            
-         
-    
-    
+
     def run(self):
         self.window.start()
