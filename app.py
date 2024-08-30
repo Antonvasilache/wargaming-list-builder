@@ -36,9 +36,9 @@ class App:
         
     def setup_list_builder(self, selected_faction):  
         faction = Faction(selected_faction)
-        army_list = ListBuilder(faction, 800)
+        army_list = ListBuilder(faction, 1000)
        
-        # Add a label for the list builder
+        # Add a header for the list builder
         self.window.add_label("Select your units:") 
         
         # Create and pack frames for each section
@@ -157,21 +157,33 @@ class App:
     
     def add_unit_to_list(self, unit_name, faction, army):
         unit_info = faction.available_units[unit_name]
-        
-        unit_frame = Frame(self.selected_inner_frame)
-        unit_frame.pack(pady=10, fill='x')        
-        
-        selected_unit_label = Label(unit_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
-        selected_unit_label.pack(anchor='w')
-        
-        unit_info = faction.available_units[unit_name]
         points = unit_info['points']
         type = unit_info['unit_type'] 
-        upgrades = unit_info['available_upgrades']       
-        
+        upgrades = unit_info['available_upgrades']    
+           
         new_unit = Unit(unit_name, points, type, upgrades)          
         army.add_unit(new_unit)     
         
+        # Frame to hold the unit label and the remove button on the same row
+        unit_frame = Frame(self.selected_inner_frame)
+        unit_frame.pack(pady=10, fill='x')        
+        
+        # Frame to hold the label and remove button side by side
+        unit_row_frame = Frame(unit_frame)
+        unit_row_frame.pack(fill='x') 
+        
+        selected_unit_label = Label(unit_row_frame, text=f"{unit_name} {unit_info['points']}p", font=("Helvetica", 12, "bold"))
+        selected_unit_label.pack(side='left', anchor='w')
+        
+        # Add a remove button aligned to the right
+        remove_button = Button(
+            unit_row_frame,
+            text='-',
+            command=lambda: (army.remove_unit(new_unit), unit_frame.destroy()),
+            padx=5, pady=5
+        )
+        remove_button.pack(side='right')
+
         # Frame to hold the upgrade type buttons
         upgrade_types_frame = Frame(unit_frame)
         upgrade_types_frame.pack(pady=5, fill='x')     
@@ -188,10 +200,10 @@ class App:
                 text=upgrade_type,
                 command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame),
                 padx=5, pady=2
-                )
+            )
             upgrade_type_button.pack(side='left', padx=5, pady=5)
-            
-       
+
+    
         
     def select_upgrade(self, unit, upgrade_type, parent_frame):        
         # Clear any existing upgrades in the upgrade_buttons_frame
@@ -240,7 +252,9 @@ class App:
     def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit):
         print(f"{upgrade_name} upgrade being added to list, for unit {unit.name}")
         for frame in self.selected_inner_frame.winfo_children():
-            for index, child_frame in enumerate(frame.winfo_children()):
+            unit_row_frame = frame.winfo_children()[0]
+            
+            for index, child_frame in enumerate(unit_row_frame.winfo_children()):
                 if isinstance(child_frame, Label) and unit.name in child_frame.cget('text'):
                     child_frame.config(text=f"{unit.name} {unit.points + upgrade_value['points']}p")
                     upgrade_frame = Frame(frame)
@@ -265,10 +279,11 @@ class App:
                     )
                     remove_button.pack(side='right', padx=(0,5), pady=5)
                     
-                    if len(frame.winfo_children()) > index + 1:
-                        upgrade_frame.pack(before=frame.winfo_children()[index+1], pady=5, fill='x')
+                    if len(frame.winfo_children()) > 1:
+                        upgrade_frame.pack(before=frame.winfo_children()[1], pady=5, fill='x')
                     else:
-                        upgrade_frame.pack(pady=5, fill='x')                
+                        upgrade_frame.pack(pady=5, fill='x') 
+                    return               
                     
         
     def show_upgrade_details(self, name, value):
