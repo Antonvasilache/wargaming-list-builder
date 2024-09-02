@@ -193,8 +193,7 @@ class App:
             unit_text = f"{unit_name} ({unit_info['unit_type']})"
             points_text = f"{unit_info['points']}p"
             
-            max_length = 35
-            
+            max_length = 35            
             formatted_text = f"{unit_text:<{max_length - len(points_text)}}{points_text:>{len(points_text)}}"
             
             unit_button = Button(
