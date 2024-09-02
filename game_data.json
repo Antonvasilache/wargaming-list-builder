@@ -6,223 +6,260 @@
                     "points": 120,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Force", "Command", "Training", "Gear"]
+                    "available_upgrades": ["Force", "Command", "Training", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c194002da6cf0795/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Cassian Andor": {
                     "points": 90,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Training", "Gear", "Armament"]
+                    "available_upgrades": ["Training", "Training", "Gear", "Armament"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1410024bea06216/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Han Solo": {
                     "points": 100,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Command", "Training", "Gear"]
+                    "available_upgrades": ["Command", "Training", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c16d000bc7f9ab35/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Lando Calrissian": {
                     "points": 95,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Command", "Training", "Gear"]
+                    "available_upgrades": ["Command", "Training", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1800021fa88e630/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
                     "points": 48,
                     "unit_type": "Commander",
                     "unique": 0,
-                    "available_upgrades": ["Command", "Gear"]
+                    "available_upgrades": ["Command", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ad000d6a536a59/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Officer": {
                     "points": 50,
                     "unit_type": "Commander",
                     "unique": 0,
-                    "available_upgrades": ["Command", "Gear"]
+                    "available_upgrades": ["Command", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1c90005b2901b94/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wicket": {
                     "points": 70,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Training", "Training"]
+                    "available_upgrades": ["Training", "Training", "Training"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ef00039fbe14a7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jyn Erso": {
                     "points": 90,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Command", "Training", "Gear", "Armament"]
+                    "available_upgrades": ["Command", "Training", "Gear", "Armament"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c17900282e55e58b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Leia Organa": {
                     "points": 75,
                     "unit_type": "Commander",
                     "unique": 1,
-                    "available_upgrades": ["Command", "Command", "Training", "Gear"]
+                    "available_upgrades": ["Command", "Command", "Training", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c184001c2b2a689d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ahsoka Tano": {
                     "points": 145,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Force", "Force", "Training", "Training"]
+                    "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c120003d4005f0a1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Boba Fett": {
                     "points": 120,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Training", "Gear", "Gear"]
+                    "available_upgrades": ["Training", "Training", "Gear", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c13c000709be0146/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Chewbacca": {
                     "points": 90,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Training", "Gear"]
+                    "available_upgrades": ["Training", "Training", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c155001bfeee69e2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Din Djarin": {
                     "points": 95,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"]
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c15a0008dafad5bc/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-11": {
                     "points": 105,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Protocol", "Training", "Comms", "Gear"]
+                    "available_upgrades": ["Protocol", "Training", "Comms", "Gear"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1740002a228ad81/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Luke Skywalker (Jedi Knight)": {
                     "points": 175,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Force", "Force", "Force", "Training"]
+                    "available_upgrades": ["Force", "Force", "Force", "Training"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c19b001756fd09c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "R2-D2": {
                     "points": 55,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Comms"]
+                    "available_upgrades": ["Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1bb0006b9ee1e43/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Sabine Wren": {
                     "points": 125,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Training", "Gear", "Gear", "Armament"]
+                    "available_upgrades": ["Training", "Gear", "Gear", "Armament"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1e1003359d3b852/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "The Bad Batch": {
                     "points": 140,
                     "unit_type": "Operative",
                     "unique": 1,
-                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"]
+                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1370028a135861a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Skirmishers": {
                     "points": 40,
                     "unit_type": "Corps",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c15e00200eeeda9f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Troopers": {
                     "points": 40,
                     "unit_type": "Corps",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d4002193071467/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Veterans": {
                     "points": 48,
                     "unit_type": "Corps",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades", "Gear", "Training", "Comms"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades", "Gear", "Training", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d8002600579417/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Fleet Troopers": {
                     "points": 40,
                     "unit_type": "Corps",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades", "Gear", "Training", "Comms"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades", "Gear", "Training", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1680018b2e205ad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Foot Soldiers": {
                     "points": 44,
                     "unit_type": "Corps",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1b1003e58026def/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Slingers": {
                     "points": 35,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"]
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c163003a86f39dd0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mandalorian Resistance (Clan Wren)": {
                     "points": 30,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1a800029d4c4889/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mandalorian Resistance": {
                     "points": 68,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1a4000c257f91ad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Commandos": {
                     "points": 48,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1bf002dad8159fa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Pathfinders": {
                     "points": 56,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d00001ade01087/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wookie Warriors (Kashyyyk Resistance)": {
                     "points": 72,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1fc00168247b577/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wookie Warriors (Freedom Fighters)": {
                     "points": 69,
                     "unit_type": "Special Forces",
                     "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"]
+                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1f5001192a616e9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "1.4 FD Laser Cannon Team": {
                     "points": 65,
                     "unit_type": "Support",
                     "unique": 0,
-                    "available_upgrades": ["Comms", "Generator"]
+                    "available_upgrades": ["Comms", "Generator"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c106001874dd770a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-RT": {
                     "points": 50,
                     "unit_type": "Support",
                     "unique": 0,
-                    "available_upgrades": ["Hardpoint", "Comms"]
+                    "available_upgrades": ["Hardpoint", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c130003d7fedbd9b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Swoop Bike Riders": {
                     "points": 70,
                     "unit_type": "Support",
                     "unique": 0,
-                    "available_upgrades": ["Comms"]
+                    "available_upgrades": ["Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1e5002b80488dbe/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Tauntaun Riders": {
                     "points": 95,
                     "unit_type": "Support",
                     "unique": 0,
-                    "available_upgrades": ["Training", "Comms"]
+                    "available_upgrades": ["Training", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ea000e9694b1d8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-A5 Speeder Truck": {
                     "points": 65,
                     "unit_type": "Heavy",
                     "unique": 0,
-                    "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"]
+                    "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c10d0038215baf4d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-47 Airspeeder": {
                     "points": 125,
                     "unit_type": "Heavy",
                     "unique": 0,
-                    "available_upgrades": ["Pilot", "Hardpoint", "Comms"]
+                    "available_upgrades": ["Pilot", "Hardpoint", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c12c0025d9c62610/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "X-34 Landspeeder": {
                     "points": 55,
                     "unit_type": "Heavy",
                     "unique": 0,
-                    "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"]
+                    "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c2040005aa766243/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "command_cards": {

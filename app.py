@@ -4,6 +4,7 @@ from window import Window
 from faction import Faction
 from listBuilder import ListBuilder
 from tkinter import Label, Frame, Button, Canvas, Scrollbar
+from PIL import Image, ImageTk
 import json
 
 
@@ -226,11 +227,25 @@ class App:
 
         
     def show_unit_details(self, unit_name, faction):
+        unit_info = faction.available_units[unit_name]
         widgets = self.unit_details_frame.winfo_children()        
         for index in range (1, len(widgets)):
-            widgets[index].destroy()            
+            widgets[index].destroy()
             
-        unit_info = faction.available_units[unit_name]
+            
+        image_url = unit_info['image_url']
+          
+        try:
+            image = get_image(image_url)
+            image = image.resize((350, 250), Image.Resampling.LANCZOS)
+            photo = ImageTk.PhotoImage(image)
+            
+            image_label = Label(self.unit_details_frame, image=photo)
+            image_label.image = photo
+            image_label.pack(pady=10)
+        except Exception as e:
+            print(f"Error loading image for {unit_name}: {e}")
+            
         details_label = Label(
             self.unit_details_frame, 
             text=f"Unit: {unit_name}\nType: {unit_info['unit_type']}\n Points: {unit_info['points']}"

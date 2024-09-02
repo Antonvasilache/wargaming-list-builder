@@ -1,3 +1,8 @@
+from functools import cache
+from io import BytesIO
+from PIL import Image
+import requests
+
 # Enable mouse wheel scrolling
 def on_mouse_wheel(event, canvas):
     if event.delta:
@@ -14,3 +19,9 @@ def bind_mousewheel_to_widget(widget, canvas):
     widget.bind("<Button-5>", lambda e: on_mouse_wheel(e, canvas))    # Linux Scroll Down
     for child in widget.winfo_children():
         bind_mousewheel_to_widget(child, canvas)  # Recursively bind to all children   
+        
+        
+@cache
+def get_image(url):
+    response = requests.get(url)
+    return Image.open(BytesIO(response.content))
