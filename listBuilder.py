@@ -8,7 +8,7 @@ class ListBuilder:
         self.current_points = 0
         self.allowed_unit_types = {} 
         self.current_unit_types = {}
-        self.command_cards = {} # {type: qty_required}
+        self.command_cards = {} 
         self.activations = 0
         
         self.load_unit_types()  

@@ -37,9 +37,10 @@ class App:
     def setup_list_builder(self, selected_faction):  
         faction = Faction(selected_faction)
         army_list = ListBuilder(faction, 1000)
+        print("allowed unit types:", army_list.allowed_unit_types)
+        print("current unit types:",army_list.current_unit_types)
        
         # Add a header for the list builder
-        # self.window.add_label("Select your units:") 
         self.header_frame = Frame(self.window.root, pady=10)
         self.header_frame.pack(fill='x', pady=(10,5))
         
@@ -51,23 +52,77 @@ class App:
         faction_label.pack(side='left', padx=(10, 0))
         
         #Frame for unit types status
-        unit_status_frame = Frame(self.header_frame)
-        unit_status_frame.pack(side='left', expand=True)
+        self.unit_status_frame = Frame(self.header_frame)
+        self.unit_status_frame.pack(side='left', expand=True)
         
-        unit_status_label = Label(
-            unit_status_frame,
-            text="Commander: 0/2, Operative: 0/2, Corps: 0/6, Special Forces: 0/3, Support: 0/3, Heavy: 0/2",
+        # Create a frame and label for each unit type and store them in the App class
+        self.commander_frame = Frame(self.unit_status_frame)
+        self.commander_frame.pack(side='left', padx=5)
+
+        self.commander_label = Label(
+            self.commander_frame,
+            text=f"Commander: {army_list.current_unit_types['Commander']}/{army_list.allowed_unit_types['Commander']['min']}-{army_list.allowed_unit_types['Commander']['max']}",
             font=("Helvetica", 10)
         )
-        unit_status_label.pack()
+        self.commander_label.pack()
+
+        self.operative_frame = Frame(self.unit_status_frame)
+        self.operative_frame.pack(side='left', padx=5)
+
+        self.operative_label = Label(
+            self.operative_frame,
+            text=f"Operative: {army_list.current_unit_types['Operative']}/{army_list.allowed_unit_types['Operative']['min']}-{army_list.allowed_unit_types['Operative']['max']}",
+            font=("Helvetica", 10)
+        )
+        self.operative_label.pack()
+
+        self.corps_frame = Frame(self.unit_status_frame)
+        self.corps_frame.pack(side='left', padx=5)
+
+        self.corps_label = Label(
+            self.corps_frame,
+            text=f"Corps: {army_list.current_unit_types['Corps']}/{army_list.allowed_unit_types['Corps']['min']}-{army_list.allowed_unit_types['Corps']['max']}",
+            font=("Helvetica", 10)
+        )
+        self.corps_label.pack()
+
+        self.special_forces_frame = Frame(self.unit_status_frame)
+        self.special_forces_frame.pack(side='left', padx=5)
+
+        self.special_forces_label = Label(
+            self.special_forces_frame,
+            text=f"Special Forces: {army_list.current_unit_types['Special Forces']}/{army_list.allowed_unit_types['Special Forces']['min']}-{army_list.allowed_unit_types['Special Forces']['max']}",
+            font=("Helvetica", 10)
+        )
+        self.special_forces_label.pack()
+
+        self.support_frame = Frame(self.unit_status_frame)
+        self.support_frame.pack(side='left', padx=5)
+
+        self.support_label = Label(
+            self.support_frame,
+            text=f"Support: {army_list.current_unit_types['Support']}/{army_list.allowed_unit_types['Support']['min']}-{army_list.allowed_unit_types['Support']['max']}",
+            font=("Helvetica", 10)
+        )
+        self.support_label.pack()
+
+        self.heavy_frame = Frame(self.unit_status_frame)
+        self.heavy_frame.pack(side='left', padx=5)
+
+        self.heavy_label = Label(
+            self.heavy_frame,
+            text=f"Heavy: {army_list.current_unit_types['Heavy']}/{army_list.allowed_unit_types['Heavy']['min']}-{army_list.allowed_unit_types['Heavy']['max']}",
+            font=("Helvetica", 10)
+        )
+        self.heavy_label.pack()
         
         #Label for activations and points, aligned to the right
-        points_status_label = Label(
+        self.points_status_label = Label(
             self.header_frame,
-            text = 'Activations: 0, Points: 0/1000',
+            text = f'Activations: {army_list.activations}, Points: {army_list.current_points}/1000',
             font=("Helvetica", 12)
         )
-        points_status_label.pack(side='right', padx=(0,10))
+        self.points_status_label.pack(side='right', padx=(0,10))
         
         # Create and pack frames for each section
         self.available_units_frame = Frame(self.window.root, width=160)
@@ -194,6 +249,8 @@ class App:
         if new_unit.unique == 0 or new_unit not in army.selected_units:         
             army.add_unit(new_unit)   
             
+            print("current points:", army.current_points)
+            
             # Frame to hold the unit label and the remove button on the same row
             unit_frame = Frame(self.selected_inner_frame)
             unit_frame.pack(pady=10, fill='x')        
@@ -209,7 +266,12 @@ class App:
             remove_button = Button(
                 unit_row_frame,
                 text='-',
-                command=lambda: (army.remove_unit(new_unit), unit_frame.destroy()),
+                command=lambda: (
+                    army.remove_unit(new_unit), 
+                    unit_frame.destroy(), 
+                    self.update_current_unit_types(army, type), 
+                    self.update_points_status(army, self.points_status_label)
+                    ),
                 padx=5, pady=5
             )
             remove_button.pack(side='right')
@@ -224,17 +286,34 @@ class App:
             
             bind_mousewheel_to_widget(unit_frame, self.selected_units_canvas)
             
+            buttons_per_row = 4
+            button_count = 0
+            
+            # Initial row frame
+            current_row_frame = Frame(upgrade_types_frame)
+            current_row_frame.pack(fill='x')
+            
             for upgrade_type in upgrades:
+                if button_count % buttons_per_row == 0 and button_count != 0:
+                    current_row_frame = Frame(upgrade_types_frame)
+                    current_row_frame.pack(fill='x')
+                    
                 upgrade_type_button = Button(
-                    upgrade_types_frame,
+                    current_row_frame,
                     text=upgrade_type,
-                    command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame),
+                    command=lambda u_type=upgrade_type: self.select_upgrade(new_unit, u_type, upgrade_buttons_frame, army),
                     padx=5, pady=2
                 )
                 upgrade_type_button.pack(side='left', padx=5, pady=5)
+                
+                button_count += 1
+                
+            # Updating unit type tracker, points and activations
+            self.update_current_unit_types(army, type)
+            self.update_points_status(army, self.points_status_label)
     
         
-    def select_upgrade(self, unit, upgrade_type, parent_frame):        
+    def select_upgrade(self, unit, upgrade_type, parent_frame, army):        
         # Clear any existing upgrades in the upgrade_buttons_frame
         for frame in self.selected_inner_frame.winfo_children(): # unit_frame            
             for child_frame in frame.winfo_children(): # upgrade_types_frame, upgrade_buttons_frame                
@@ -268,24 +347,28 @@ class App:
                 for slot in unit.upgrade_slots:
                     if slot['type'] == upgrade_type and slot['upgrade'] is None:
                         print("upgrade being added to gui")
-                        self.add_upgrade_to_list(upgrade_name, upgrade_value, upgrade_type, unit)
+                        self.add_upgrade_to_list(upgrade_name, upgrade_value, upgrade_type, unit, army)                        
                         return
             
             add_button = Button(
                 upgrade_row_frame,
                 text='+',
-                command=lambda u_name=upgrade_name, u_value=upgrade_value: (add_upgrade_to_list_conditional(u_name, u_value), unit.add_upgrade(u_name, u_value, upgrade_type))
+                command=lambda u_name=upgrade_name, u_value=upgrade_value: (
+                    add_upgrade_to_list_conditional(u_name, u_value), 
+                    unit.add_upgrade(u_name, u_value, upgrade_type, army),
+                    self.update_points_status(army, self.points_status_label)
+                    )
             )
             add_button.pack(side='right', pady=5)            
         
-    def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit):
+    def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit, army):
         print(f"{upgrade_name} upgrade being added to list, for unit {unit.name}")
         for frame in self.selected_inner_frame.winfo_children():
             unit_row_frame = frame.winfo_children()[0]
             
             for index, child_frame in enumerate(unit_row_frame.winfo_children()):
                 if isinstance(child_frame, Label) and unit.name in child_frame.cget('text'):
-                    child_frame.config(text=f"{unit.name} {unit.points + upgrade_value['points']}p")
+                    child_frame.config(text=f"{unit.name} {unit.points + upgrade_value['points']}p")  
                     upgrade_frame = Frame(frame)
                     
                     upgrade_button = Button(
@@ -297,13 +380,17 @@ class App:
                     upgrade_button.pack(side='left', padx=(0,5), pady=5)
                     
                     def remove_update_visual(cf=child_frame):
-                        cf.config(text=f"{unit.name} {unit.points - upgrade_value['points']}p")
+                        cf.config(text=f"{unit.name} {unit.points - upgrade_value['points']}p")                        
                         upgrade_frame.destroy()
                     
                     remove_button = Button(
                         upgrade_frame,
                         text='-',
-                        command=lambda: (remove_update_visual(), unit.remove_upgrade(upgrade_name, upgrade_type)),
+                        command=lambda: (
+                            remove_update_visual(),
+                            unit.remove_upgrade(upgrade_name, upgrade_type, army),
+                            self.update_points_status(army, self.points_status_label)
+                            ),
                         padx=5, pady=5
                     )
                     remove_button.pack(side='right', padx=(0,5), pady=5)
@@ -324,6 +411,41 @@ class App:
             text=f"Upgrade name: {name}\n Points: {value['points']}"
             )
         details_label.pack(pady=10)
+        
+        
+    def update_current_unit_types(self, army, unit_type):
+        #Construct the attribute name for the label dynamically
+        label_name = f"{unit_type.lower()}_label"
+        
+        #Fetch the corresponding label object
+        label = getattr(self, label_name, None)
+        
+        if label:
+            current_count = army.current_unit_types[unit_type]  
+            min_count = army.allowed_unit_types[unit_type]['min']
+            max_count = army.allowed_unit_types[unit_type]['max']
+            
+            if current_count < min_count or current_count > max_count:
+                color = "red"
+            else:
+                color = "black"
+            label.config(
+                text=f"{unit_type}: {current_count}/{min_count}-{max_count}",
+                fg=color
+            )
+            
+    def update_points_status(self, army, label):
+        if army.current_points > army.max_points:
+            color = "red"
+        else:
+            color = "black"
+        
+        label.config(
+            text=f'Activations: {army.activations}, Points: {army.current_points}/1000',
+            fg=color
+        )
+        
+        print(f"Updating points to: {army.current_points}")
 
     def run(self):
         self.window.start()
