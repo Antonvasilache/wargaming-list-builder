@@ -7,7 +7,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Command", "Training", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c194002da6cf0795/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3090035eabb16bf/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Cassian Andor": {
                     "points": 90,
@@ -28,14 +28,14 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1800021fa88e630/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e31a001ef520e07e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
                     "points": 48,
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ad000d6a536a59/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Officer": {
                     "points": 50,
@@ -49,7 +49,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Training"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ef00039fbe14a7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1980000cb044b4d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jyn Erso": {
                     "points": 90,
@@ -70,49 +70,49 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c120003d4005f0a1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3e10019bdb4bd12/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Boba Fett": {
                     "points": 120,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c13c000709be0146/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3ae00043effd61a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Chewbacca": {
                     "points": 90,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c155001bfeee69e2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e39800163e9da0a0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Din Djarin": {
                     "points": 95,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c15a0008dafad5bc/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e37e002741a80e8f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-11": {
                     "points": 105,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Protocol", "Training", "Comms", "Gear"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1740002a228ad81/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e32a000787f0f8f8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Luke Skywalker (Jedi Knight)": {
                     "points": 175,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Training"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c19b001756fd09c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2fa002151a453ca/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "R2-D2": {
                     "points": 55,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Comms"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1bb0006b9ee1e43/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e29300381ec03a3e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Sabine Wren": {
                     "points": 125,
@@ -126,21 +126,21 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1370028a135861a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e6320032ac8255fd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Skirmishers": {
                     "points": 40,
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c15e00200eeeda9f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e361000439779113/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Troopers": {
                     "points": 40,
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d4002193071467/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1f2001fc60af3f5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Veterans": {
                     "points": 48,
@@ -161,14 +161,14 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1b1003e58026def/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Slingers": {
                     "points": 35,
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c163003a86f39dd0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e342002821cc69c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mandalorian Resistance (Clan Wren)": {
                     "points": 30,
@@ -189,7 +189,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1bf002dad8159fa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2780018220d9c23/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Pathfinders": {
                     "points": 56,
@@ -198,14 +198,14 @@
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d00001ade01087/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
-                "Wookie Warriors (Kashyyyk Resistance)": {
+                "Wookiee Warriors (Kashyyyk Resistance)": {
                     "points": 72,
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1fc00168247b577/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e18100114b6bf34f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
-                "Wookie Warriors (Freedom Fighters)": {
+                "Wookiee Warriors (Freedom Fighters)": {
                     "points": 69,
                     "unit_type": "Special Forces",
                     "unique": 0,
@@ -224,28 +224,28 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Hardpoint", "Comms"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c130003d7fedbd9b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3d3003d5bbfc4b8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Swoop Bike Riders": {
                     "points": 70,
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1e5002b80488dbe/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1d10026a1c9c0a2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Tauntaun Riders": {
                     "points": 95,
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Training", "Comms"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1ea000e9694b1d8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1ad001aba37852e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-A5 Speeder Truck": {
                     "points": 65,
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c10d0038215baf4d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3f500060c693ca5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-47 Airspeeder": {
                     "points": 125,
@@ -277,20 +277,228 @@
         "Empire": {
             "units": {
                 "Darth Vader": {
-                    "points": 175,
+                    "points": 170,
                     "unit_type": "Commander",
-                    "available_upgrades": ["Force", "Force", "Gear"]
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Force", "Gear"]
+                },
+                "Agent Kallus": {
+                    "points": 85,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Training", "Gear", "Armament"]
+                },
+                "Black Sun Vigo": {
+                    "points": 50,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Director Orson Krennic": {
+                    "points": 65,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Gear"]
+                },
+                "Emperor Palpatine": {
+                    "points": 170,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Force", "Command"]
+                },
+                "General Veers": {
+                    "points": 75,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Gear"]
+                },
+                "Iden Versio": {
+                    "points": 100,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear", "Armament", "Comms"]
+                },
+                "Imperial Officer": {
+                    "points": 55,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Moff Gideon": {
+                    "points": 100,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Training", "Gear", "Armament"]
+                },
+                "Pyke Syndicate Capo": {
+                    "points": 48,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Boba Fett": {
+                    "points": 130,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear"]
+                },
+                "Bossk": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear"]
+                },
+                "Cad Bane": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Darth Vader (Apprentice)": {
+                    "points": 155,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Training", "Training"]
+                },
+                "Din Djarin": {
+                    "points": 95,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"]
+                },
+                "The Fifth Brother": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Training", "Training"]
+                },
+                "IG-11": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Protocol", "Training", "Comms", "Gear"]
+                },
+                "IG-88": {
+                    "points": 110,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Comms", "Gear"]
+                },
+                "Seventh Sister": {
+                    "points": 110,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Training", "Training"]
                 },
                 "Stormtroopers": {
-                    "points": 44,
+                    "points": 42,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
                 },
+                "Black Sun Enforcers": {
+                    "points": 50,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Pyke Syndicate Foot Soldiers": {
+                    "points": 44,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Shoretroopers": {
+                    "points": 52,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades"]
+                },
+                "Snowtroopers": {
+                    "points": 42,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Imperial Death Troopers": {
+                    "points": 72,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Imperial Royal Guards": {
+                    "points": 69,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"]
+                },
+                "Imperial Special Forces (Inferno Squad)": {
+                    "points": 34,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Training", "Comms", "Gear", "Grenades"]
+                },
+                "Imperial Special Forces": {
+                    "points": 68,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Comms", "Gear", "Grenades"]
+                },
+                "Scout Troopers": {
+                    "points": 48,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"]
+                },
                 "74-Z Speeder Bikes": {
-                    "points": 90,
+                    "points": 80,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Comms"]
-                }
+                },
+                "Dewback Rider": {
+                    "points": 70,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Training", "Comms", "Armament"]
+                },
+                "E-Web Heavy Blaster Team": {
+                    "points": 60,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Comms", "Generator"]
+                },
+                "Range Troopers": {
+                    "points": 60,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Comms", "Grenades"]
+                },
+                "AT-ST": {
+                    "points": 145,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Hardpoint", "Hardpoint", "Hardpoint", "Comms"]
+                },
+                "Imperial Dark Troopers": {
+                    "points": 95,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Personnel", "Protocol"]
+                },
+                "TX-225 GAVW Occupier Combat Assault Tank": {
+                    "points": 125,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Hardpoint", "Comms"]
+                },
+                "LAAT/LE Patrol Transport": {
+                    "points": 105,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Ordnance", "Comms"]
+                }                
+
             },
             "command_cards": {
                 "Implacable": {
@@ -307,20 +515,162 @@
         "Republic": {
             "units": {
                 "Obi-Wan Kenobi": {
-                    "points": 170,
+                    "points": 150,
                     "unit_type": "Commander",
-                    "available_upgrades": ["Force", "Force", "Command"]
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Command", "Training"]
+                },
+                "Anakin Skywalker": {
+                    "points": 155,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Training", "Training"]
+                },
+                "Chewbacca": {
+                    "points": 90,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear"]
+                },
+                "Clone Captain Rex": {
+                    "points": 95,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Training", "Gear", "Gear", "Grenades"]
+                },
+                "Clone Commander": {
+                    "points": 60,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Training", "Gear"]
+                },
+                "Clone Commander Cody": {
+                    "points": 105,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Training", "Gear"]
+                },
+                "Pyke Syndicate Capo": {
+                    "points": 48,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Wookiee Chieftain": {
+                    "points": 100,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Training", "Training", "Gear"]
+                },
+                "Yoda": {
+                    "points": 180,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Force", "Command"]
+                },
+                "Padme Amidala": {
+                    "points": 180,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Training", "Gear", "Armament"]
+                },
+                "R2-D2": {
+                    "points": 55,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Comms"]
+                },
+                "The Bad Batch": {
+                    "points": 160,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"]                   
                 },
                 "Phase I Clone Troopers": {
                     "points": 52,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
                 },
+                "Phase II Clone Troopers": {
+                    "points": 60,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades"]
+                },
+                "Pyke Syndicate Foot Soldiers": {
+                    "points": 44,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "ARC Troopers": {
+                    "points": 58,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Gear", "Grenades"]
+                },
+                "Wookiee Warriors (Noble Fighters)": {
+                    "points": 69,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"]
+                },
+                "Wookiee Warriors (Kashyyyk Defenders)": {
+                    "points": 72,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"]
+                },
                 "BARC Speeder": {
+                    "points": 65,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Crew", "Comms"]
+                },
+                "Clone Commandos": {
                     "points": 75,
                     "unit_type": "Support",
-                    "available_upgrades": ["Gunner", "Comms"]
+                    "unique": 0,
+                    "available_upgrades": ["Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Clone Commandos (DS)": {
+                    "points": 100,
+                    "unit_type": "Support",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear", "Grenades", "Comms","Armament"]
+                },
+                "Raddaugh Gnasp Fluttercraft": {
+                    "points": 55,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Crew", "Comms"]
+                },
+                "Swoop Bike Riders": {
+                    "points": 70,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Comms"]
+                },
+                "Infantry Support Platform": {
+                    "points": 65,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Hardpoint", "Comms"]
+                },
+                "LAAT/LE Patrol Transport": {
+                    "points": 100,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Ordnance", "Comms"]
+                },
+                "TX-130 Saber-Class Fighter Tank": {
+                    "points": 155,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Hardpoint", "Comms", "Ordnance", "Ordnance"]
                 }
+
             },
             "command_cards": {
                 "Hello There!": {
@@ -337,19 +687,160 @@
         "CIS": {
             "units": {
                 "General Grievous": {
-                    "points": 175,
+                    "points": 130,
                     "unit_type": "Commander",
-                    "available_upgrades": ["Command", "Training", "Training"]
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Training", "Armament"]
+                },
+                "Count Dooku": {
+                    "points": 165,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Force", "Command"]
+                },
+                "Black Sun Vigo": {
+                    "points": 50,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Poggle The Lesser": {
+                    "points": 80,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Comms", "Gear"]
+                },
+                "Pyke Syndicate Capo": {
+                    "points": 48,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },
+                "Super Tactical Droid": {
+                    "points": 75,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Comms", "Gear"]
+                },
+                "Super Tactical Droid (Kraken)": {
+                    "points": 80,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Training", "Comms", "Gear"]
+                },
+                "Super Tactical Droid (Kalani)": {
+                    "points": 85,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Command", "Command", "Command", "Comms", "Gear"]
+                },
+                "T-Series Tactical Droid": {
+                    "points": 60,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Comms", "Gear"]
+                },
+                "Asajj Ventress": {
+                    "points": 130,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Training", "Training"]
+                },
+                "Bossk": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear"]
+                },
+                "Cad Bane": {
+                    "points": 105,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Maul": {
+                    "points": 130,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Training", "Training"]
+                },
+                "Sun Fac": {
+                    "points": 80,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Comms", "Gear"]
                 },
                 "B1 Battle Droids": {
-                    "points": 36,
+                    "points": 38,
                     "unit_type": "Corps",
+                    "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Comms"]
                 },
+                "B2 Super Battle Droids": {
+                    "points": 64,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Comms"]
+                },
+                "Black Sun Enforcers": {
+                    "points": 50,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Pyke Syndicate Foot Soldiers": {
+                    "points": 44,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Geonosian Warriors": {
+                    "points": 45,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel"]
+                },
+                "BX-Series Droid Commandos": {
+                    "points": 64,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Armament", "Grenades"]
+                },
+                "IG-100 MagnaGuard": {
+                    "points": 72,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Training", "Comms", "Grenades"]
+                },
                 "Droidekas": {
-                    "points": 100,
+                    "points": 60,
                     "unit_type": "Support",
+                    "unique": 0,
                     "available_upgrades": ["Comms"]
+                },
+                "DSD1 Dwarf Spider Droid": {
+                    "points": 50,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Protocol", "Hardpoint", "Comms"]
+                },
+                "STAP Riders": {
+                    "points": 80,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Comms"]
+                },
+                "AAT Trade Federation Battle Tank": {
+                    "points": 165,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Pilot", "Ordnance", "Ordnance", "Comms"]
+                },
+                "NR-N99 Persuader-Class Tank Droid": {
+                    "points": 130,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Protocol", "Ordnance", "Comms"]
                 }
             },
             "command_cards": {
@@ -366,20 +857,71 @@
         },
         "Mercenaries": {
             "units": {
-                "Cad Bane": {
-                    "points": 125,
-                    "unit_type": "Operative",
-                    "available_upgrades": ["Training", "Gear", "Comms"]
+                "Black Sun Vigo": {
+                    "points": 50,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
                 },
-                "IG-88": {
-                    "points": 120,
+                "Gar Saxon": {
+                    "points": 95,
+                    "unit_type": "Commander",
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament", "Armament"]
+                },
+                "Pyke Syndicate Capo": {
+                    "points": 48,
+                    "unit_type": "Commander",
+                    "unique": 0,
+                    "available_upgrades": ["Command", "Gear"]
+                },                
+                "Cad Bane": {
+                    "points": 105,
                     "unit_type": "Operative",
-                    "available_upgrades": ["Training", "Comms"]
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Maul": {
+                    "points": 150,
+                    "unit_type": "Operative",
+                    "unique": 1,
+                    "available_upgrades": ["Force", "Force", "Command", "Training", "Armament"]
                 },
                 "Bossk": {
-                    "points": 115,
+                    "points": 105,
                     "unit_type": "Operative",
-                    "available_upgrades": ["Training", "Gear", "Comms"]
+                    "unique": 1,
+                    "available_upgrades": ["Training", "Training", "Gear"]
+                },
+                "Black Sun Enforcers": {
+                    "points": 50,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Pyke Syndicate Foot Soldiers": {
+                    "points": 44,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"]
+                },
+                "Mandalorian Super Commandos": {
+                    "points": 70,
+                    "unit_type": "Special Forces",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "Swoop Bike Riders": {
+                    "points": 70,
+                    "unit_type": "Support",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
+                },
+                "A-A5 Speeder Truck": {
+                    "points": 65,
+                    "unit_type": "Heavy",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"]
                 }
             },
             "command_cards": {
