@@ -1,7 +1,7 @@
 from upgrade import Upgrade
 
 class Unit:
-    def __init__(self, name, points, unit_type, upgrades, unique):
+    def __init__(self, name, points, unit_type, upgrades, unique, keywords):
         self.name = name
         self.points = points
         self.unit_type = unit_type
@@ -10,6 +10,7 @@ class Unit:
         self.upgrade_slots = [
             {'type': upgrade_type, 'upgrade': None}
             for upgrade_type in self.available_upgrades]
+        self.keywords = keywords
         
         
     def __repr__(self):

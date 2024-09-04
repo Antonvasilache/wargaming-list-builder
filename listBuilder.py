@@ -55,5 +55,8 @@ class ListBuilder:
         # add 'are you sure' message
         pass
     
+    def __repr__(self):
+        return self.faction.name
+    
     
     

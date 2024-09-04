@@ -25,3 +25,6 @@ def bind_mousewheel_to_widget(widget, canvas):
 def get_image(url):
     response = requests.get(url)
     return Image.open(BytesIO(response.content))
+
+
+    

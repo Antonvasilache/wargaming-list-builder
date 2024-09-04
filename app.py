@@ -257,9 +257,10 @@ class App:
         points = unit_info['points']
         type = unit_info['unit_type'] 
         unique = unit_info['unique']
-        upgrades = unit_info['available_upgrades']   
+        upgrades = unit_info['available_upgrades'] 
+        keywords = unit_info['keywords']  
            
-        new_unit = Unit(unit_name, points, type, upgrades, unique) 
+        new_unit = Unit(unit_name, points, type, upgrades, unique, keywords) 
         if new_unit.unique == 0 or new_unit not in army.selected_units:         
             army.add_unit(new_unit)   
             
@@ -336,10 +337,44 @@ class App:
                         widget.destroy()   
             
         # Fetch the upgrades for the specific type from JSON data   
-        upgrades = self.data['upgrade_cards']['type'][upgrade_type]   
+        upgrades = self.data['upgrade_cards']['type'][upgrade_type]          
+                    
+        eligible_upgrades = {
+            upgrade_name: upgrade for upgrade_name, upgrade in upgrades.items() if (
+                not upgrade.get('restrictions') and 'faction' not in upgrade
+                or upgrade.get('restrictions') and 'faction' not in upgrade and (
+                    unit.name in upgrade.get('restrictions', [])
+                    or unit.unit_type in upgrade.get('restrictions', [])
+                    or any(keyword in upgrade.get('restrictions', []) for keyword in unit.keywords)
+                    or (
+                        "Non-emplacement Trooper" in upgrade.get('restrictions', []) 
+                        and "Emplacement Trooper" not in unit.keywords
+                    )
+                )
+                or (
+                    not upgrade.get('restrictions') 
+                    and 'faction' in upgrade 
+                    and army.faction.name == upgrade['faction']
+                    )
+                or (
+                    upgrade.get('restrictions') 
+                    and 'faction' in upgrade 
+                    and army.faction.name == upgrade['faction']
+                    ) 
+                and (
+                    unit.name in upgrade.get('restrictions', [])
+                    or unit.unit_type in upgrade.get('restrictions', [])
+                    or any(keyword in upgrade.get('restrictions', []) for keyword in unit.keywords)
+                    or (
+                        "Non-emplacement Trooper" in upgrade.get('restrictions', []) 
+                        and "Emplacement Trooper" not in unit.keywords
+                    )
+                )                
+            )
+        }
         
         # Display available upgrades under the select unit's frame
-        for upgrade_name, upgrade_value in upgrades.items():
+        for upgrade_name, upgrade_value in eligible_upgrades.items():
             upgrade_row_frame = Frame(parent_frame)
             upgrade_row_frame.pack(fill='x', pady=5)
             

@@ -7,6 +7,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Command", "Training", "Gear"],
+                    "keywords": ["Light Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3090035eabb16bf/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Cassian Andor": {
@@ -14,6 +15,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1410024bea06216/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Han Solo": {
@@ -21,6 +23,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c16d000bc7f9ab35/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Lando Calrissian": {
@@ -28,6 +31,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e31a001ef520e07e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
@@ -35,6 +39,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Officer": {
@@ -42,6 +47,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1c90005b2901b94/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wicket": {
@@ -49,6 +55,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Training"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1980000cb044b4d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jyn Erso": {
@@ -56,6 +63,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c17900282e55e58b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Leia Organa": {
@@ -63,6 +71,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c184001c2b2a689d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ahsoka Tano": {
@@ -70,6 +79,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "keywords": ["Light Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3e10019bdb4bd12/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Boba Fett": {
@@ -77,6 +87,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3ae00043effd61a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Chewbacca": {
@@ -84,6 +95,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e39800163e9da0a0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Din Djarin": {
@@ -91,6 +103,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee84000935a50dad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-11": {
@@ -98,6 +111,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Protocol", "Training", "Comms", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e32a000787f0f8f8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Luke Skywalker (Jedi Knight)": {
@@ -105,6 +119,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Training"],
+                    "keywords": ["Light Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2fa002151a453ca/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "R2-D2": {
@@ -112,6 +127,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e29300381ec03a3e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Sabine Wren": {
@@ -119,6 +135,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Gear", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1e1003359d3b852/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "The Bad Batch": {
@@ -126,6 +143,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e6320032ac8255fd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Skirmishers": {
@@ -133,6 +151,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e361000439779113/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Troopers": {
@@ -140,6 +159,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1f2001fc60af3f5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Veterans": {
@@ -147,6 +167,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades", "Gear", "Training", "Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d8002600579417/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Fleet Troopers": {
@@ -154,6 +175,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades", "Gear", "Training", "Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1680018b2e205ad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Foot Soldiers": {
@@ -161,6 +183,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ewok Slingers": {
@@ -168,6 +191,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Personnel", "Training", "Training"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e342002821cc69c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mandalorian Resistance (Clan Wren)": {
@@ -175,6 +199,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1a800029d4c4889/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mandalorian Resistance": {
@@ -182,6 +207,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1a4000c257f91ad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Commandos": {
@@ -189,6 +215,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2780018220d9c23/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Pathfinders": {
@@ -196,6 +223,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1d00001ade01087/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wookiee Warriors (Kashyyyk Resistance)": {
@@ -203,6 +231,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"],
+                    "keywords": ["Wookiee Warriors"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e18100114b6bf34f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wookiee Warriors (Freedom Fighters)": {
@@ -210,6 +239,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"],
+                    "keywords": ["Wookiee Warriors"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c1f5001192a616e9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "1.4 FD Laser Cannon Team": {
@@ -217,6 +247,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms", "Generator"],
+                    "keywords": ["Emplacement Trooper"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c106001874dd770a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-RT": {
@@ -224,6 +255,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Hardpoint", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3d3003d5bbfc4b8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Swoop Bike Riders": {
@@ -231,6 +263,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1d10026a1c9c0a2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Tauntaun Riders": {
@@ -238,6 +271,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Training", "Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1ad001aba37852e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-A5 Speeder Truck": {
@@ -245,6 +279,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3f500060c693ca5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-47 Airspeeder": {
@@ -252,6 +287,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c12c0025d9c62610/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "X-34 Landspeeder": {
@@ -259,6 +295,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Crew", "Crew", "Pilot", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d5c2040005aa766243/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
@@ -281,6 +318,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Gear"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee73001f54720732/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Agent Kallus": {
@@ -288,6 +326,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee5000352315d760/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Black Sun Vigo": {
@@ -295,6 +334,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f1390016d2815aa2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Director Orson Krennic": {
@@ -302,6 +342,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee890022b60715e1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Emperor Palpatine": {
@@ -309,6 +350,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Command"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eedd002df9d05a6a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "General Veers": {
@@ -316,6 +358,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee9b002c0a36569b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Iden Versio": {
@@ -323,6 +366,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Armament", "Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eea00018c9983507/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Officer": {
@@ -330,6 +374,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eebd001cc95a1349/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Moff Gideon": {
@@ -337,6 +382,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Training", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eed5000694e20e2f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
@@ -344,6 +390,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Boba Fett": {
@@ -351,6 +398,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee5d000f35be850e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Bossk": {
@@ -358,6 +406,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee62001409a148c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Cad Bane": {
@@ -365,6 +414,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee670020c7ff4a87/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Darth Vader (Apprentice)": {
@@ -372,6 +422,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee7a0003b780b20f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Din Djarin": {
@@ -379,13 +430,15 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee84000935a50dad/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
-                "The Fifth Brother": {
+                "Fifth Brother": {
                     "points": 105,
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Training", "Training"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee95002ea20705fd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-11": {
@@ -393,6 +446,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Protocol", "Training", "Comms", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e32a000787f0f8f8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-88": {
@@ -400,6 +454,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Comms", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eeaa001b5dbd0eb6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Seventh Sister": {
@@ -407,20 +462,15 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Training", "Training"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eeea003ac7dc4d23/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
-                },
-                "Stormtroopers": {
-                    "points": 42,
-                    "unit_type": "Corps",
-                    "unique": 0,
-                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
-                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eef4001a9fbf6851/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
-                },
+                },                
                 "Black Sun Enforcers": {
                     "points": 50,
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f2f4001f8ae258f7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Foot Soldiers": {
@@ -428,13 +478,23 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
+                },
+                "Stormtroopers": {
+                    "points": 42,
+                    "unit_type": "Corps",
+                    "unique": 0,
+                    "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": ["Imperial Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eef4001a9fbf6851/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Shoretroopers": {
                     "points": 52,
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades"],
+                    "keywords": ["Imperial Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eeee003dfe40def0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Snowtroopers": {
@@ -442,6 +502,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": ["Imperial Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f36d002ef66ef640/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Death Troopers": {
@@ -449,6 +510,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eeb900179cb6da86/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Royal Guards": {
@@ -456,6 +518,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eeaf002f3ebd6a07/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Special Forces (Inferno Squad)": {
@@ -463,6 +526,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Training", "Training", "Comms", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eec800182e8b6587/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Special Forces": {
@@ -470,6 +534,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Comms", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eec4000f8cbe2bd7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Scout Troopers": {
@@ -477,6 +542,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eee6001289be20d2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "74-Z Speeder Bikes": {
@@ -484,6 +550,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee480025f8dab6b2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Dewback Rider": {
@@ -491,6 +558,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Training", "Comms", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee7f0017c372a63b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "E-Web Heavy Blaster Team": {
@@ -498,6 +566,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms", "Generator"],
+                    "keywords": ["Emplacement Trooper"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee8f00229113ad8a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Range Troopers": {
@@ -505,6 +574,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Comms", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eee1002d63ed4a6a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-ST": {
@@ -512,6 +582,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Hardpoint", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Ground Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee570000ab53e71e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Dark Troopers": {
@@ -519,6 +590,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Personnel", "Protocol"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eecc001d7db3f40e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "TX-225 GAVW Occupier Combat Assault Tank": {
@@ -526,6 +598,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Ground Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eed9001860918db3/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "LAAT/LE Patrol Transport": {
@@ -533,6 +606,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Ordnance", "Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eed0002c198f8862/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }                
 
@@ -556,6 +630,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Command", "Training"],
+                    "keywords": ["Light Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f49f0012aa7720f0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Anakin Skywalker": {
@@ -563,6 +638,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "keywords": ["Light Side", "Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f455003c7c089930/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Chewbacca": {
@@ -570,6 +646,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f46c003dd6eef8d0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Captain Rex": {
@@ -577,6 +654,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f472002888eb465b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Commander": {
@@ -584,6 +662,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4780028e6aa6385/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Commander Cody": {
@@ -591,6 +670,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f482002b535f921d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
@@ -598,6 +678,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Wookiee Chieftain": {
@@ -605,6 +686,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4bd001d5d747f85/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Yoda": {
@@ -612,6 +694,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Command"],
+                    "keywords": ["Light Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4c10037eb99e3bb/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Padme Amidala": {
@@ -619,6 +702,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Command", "Training", "Gear", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4a50017421a61b2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "R2-D2": {
@@ -626,6 +710,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Comms"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f5af001630307aa9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "The Bad Batch": {
@@ -633,6 +718,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon", "Heavy Weapon"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f46000203d1a5027/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"                   
                 },
                 "Phase I Clone Troopers": {
@@ -640,6 +726,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4af000843692698/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase II Clone Troopers": {
@@ -647,6 +734,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Training", "Gear", "Grenades"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4a9003a0e8c6c80/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Pyke Syndicate Foot Soldiers": {
@@ -654,6 +742,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "ARC Troopers": {
@@ -661,6 +750,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Gear", "Grenades"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f45c000bf75b7d3c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Wookiee Warriors (Noble Fighters)": {
@@ -668,6 +758,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Gear", "Grenades"],
+                    "keywords": ["Wookiee Warriors"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f49a0010d8d1444a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Wookiee Warriors (Kashyyyk Defenders)": {
@@ -675,6 +766,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Gear", "Grenades"],
+                    "keywords": ["Wookiee Warriors"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f49400094ed38671/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "BARC Speeder": {
@@ -682,6 +774,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Crew", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f468001760d8b328/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Clone Commandos": {
@@ -689,6 +782,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f47e00131111f910/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Clone Commandos (DS)": {
@@ -696,6 +790,7 @@
                     "unit_type": "Support",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear", "Grenades", "Comms","Armament"],
+                    "keywords": ["Clone Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4880035d5574971/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Raddaugh Gnasp Fluttercraft": {
@@ -703,6 +798,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Crew", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f48c001c0cb75104/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Swoop Bike Riders": {
@@ -710,6 +806,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1d10026a1c9c0a2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Infantry Support Platform": {
@@ -717,6 +814,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f490000de476bb94/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "LAAT/LE Patrol Transport": {
@@ -724,6 +822,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Ordnance", "Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6eed0002c198f8862/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "TX-130 Saber-Class Fighter Tank": {
@@ -731,6 +830,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Hardpoint", "Comms", "Ordnance", "Ordnance"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f4b9001d55145968/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 }
 
@@ -754,6 +854,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Training", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f721002ff212b7db/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Count Dooku": {
@@ -761,6 +862,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Force", "Command"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f716003c517afac8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Black Sun Vigo": {
@@ -768,6 +870,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f1390016d2815aa2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Poggle The Lesser": {
@@ -775,6 +878,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Comms", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f7350025f174bb63/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Pyke Syndicate Capo": {
@@ -782,6 +886,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Super Tactical Droid": {
@@ -789,6 +894,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Comms", "Gear"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f7420015ff612750/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Super Tactical Droid (Kraken)": {
@@ -796,6 +902,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Training", "Comms", "Gear"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f74a002dac509c4b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Super Tactical Droid (Kalani)": {
@@ -803,6 +910,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Command", "Command", "Command", "Comms", "Gear"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f74600396838a17a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "T-Series Tactical Droid": {
@@ -810,6 +918,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Comms", "Gear"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f74e0029032ac0f8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Asajj Ventress": {
@@ -817,6 +926,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f702002633c9d929/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Bossk": {
@@ -824,6 +934,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee62001409a148c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Cad Bane": {
@@ -831,6 +942,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee670020c7ff4a87/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Maul": {
@@ -838,6 +950,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Training", "Training"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f72e00057e24515a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Sun Fac": {
@@ -845,6 +958,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Comms", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f73d003708c3141c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "B1 Battle Droids": {
@@ -852,6 +966,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Comms"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f7070005987359b8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "B2 Super Battle Droids": {
@@ -859,6 +974,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Comms"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f70b0027021e6309/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Black Sun Enforcers": {
@@ -866,6 +982,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f2f4001f8ae258f7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Pyke Syndicate Foot Soldiers": {
@@ -873,6 +990,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Geonosian Warriors": {
@@ -880,6 +998,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f725003b1b273814/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "BX-Series Droid Commandos": {
@@ -887,6 +1006,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Armament", "Grenades"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f70f001bf66bdba2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "IG-100 MagnaGuard": {
@@ -894,6 +1014,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Training", "Comms", "Grenades"],
+                    "keywords": ["Droid Troopers"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f72a0005ddb98785/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Droidekas": {
@@ -901,6 +1022,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
+                    "keywords": ["Vehicle", "Ground Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f71e0021fe7e47b2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "DSD1 Dwarf Spider Droid": {
@@ -908,6 +1030,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Protocol", "Hardpoint", "Comms"],
+                    "keywords": ["Vehicle", "Ground Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f71a003d7d165215/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "STAP Riders": {
@@ -915,6 +1038,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Comms"],
+                    "keywords": ["Vehicle", "Repulsor Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f73a00173f88ce66/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "AAT Trade Federation Battle Tank": {
@@ -922,6 +1046,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Pilot", "Ordnance", "Ordnance", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f6fe0011c788253c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "NR-N99 Persuader-Class Tank Droid": {
@@ -929,6 +1054,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Protocol", "Ordnance", "Comms"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f731002194187068/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 }
             },
@@ -951,6 +1077,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f1390016d2815aa2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Gar Saxon": {
@@ -958,6 +1085,7 @@
                     "unit_type": "Commander",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Gear", "Armament", "Armament"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f914002992247886/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Pyke Syndicate Capo": {
@@ -965,6 +1093,7 @@
                     "unit_type": "Commander",
                     "unique": 0,
                     "available_upgrades": ["Command", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e22000036a7b590b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },                
                 "Cad Bane": {
@@ -972,6 +1101,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee670020c7ff4a87/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Maul": {
@@ -979,6 +1109,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Force", "Force", "Command", "Training", "Armament"],
+                    "keywords": ["Dark Side", "Force user"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f9210031c98e0868/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Bossk": {
@@ -986,6 +1117,7 @@
                     "unit_type": "Operative",
                     "unique": 1,
                     "available_upgrades": ["Training", "Training", "Gear"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6ee62001409a148c4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Black Sun Enforcers": {
@@ -993,6 +1125,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f2f4001f8ae258f7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Pyke Syndicate Foot Soldiers": {
@@ -1000,6 +1133,7 @@
                     "unit_type": "Corps",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Personnel", "Gear", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e2c80032e2a2679b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Mandalorian Super Commandos": {
@@ -1007,6 +1141,7 @@
                     "unit_type": "Special Forces",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6f91a003b2acb087e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "Swoop Bike Riders": {
@@ -1014,6 +1149,7 @@
                     "unit_type": "Support",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": ["Vehicle"],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e1d10026a1c9c0a2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 },
                 "A-A5 Speeder Truck": {
@@ -1021,6 +1157,7 @@
                     "unit_type": "Heavy",
                     "unique": 0,
                     "available_upgrades": ["Heavy Weapon", "Training", "Comms", "Gear", "Armament", "Grenades"],
+                    "keywords": [],
                     "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d5b7a40016426d0237/files/66d6e3f500060c693ca5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"        
                 }
             },
@@ -1240,6 +1377,10 @@
                     "points": 15,
                     "restrictions": []
                   },
+                  "Emergency Transponder": {
+                    "points": 4,
+                    "restrictions": []
+                  },
                   "Hacked Comms Unit": {
                     "points": 5,
                     "restrictions": []
@@ -1250,7 +1391,7 @@
                   },
                   "Integrated Comms Antenna": {
                     "points": 3,
-                    "restrictions": ["Droid Trooper"]
+                    "restrictions": ["Droid Troopers"]
                   },
                   "Linked Targeting Array": {
                     "points": 5,
@@ -1293,6 +1434,10 @@
                     "points": 6,
                     "restrictions": []
                 },
+                "Inquisitorious Training": {
+                    "points": 5,
+                    "restrictions": ["Fifth Brother", "Seventh Sister"]
+                },
                 "Into the Fray": {
                     "points": 4,
                     "restrictions": []
@@ -1315,7 +1460,7 @@
                 },
                 "Seize the Initiative": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": ["Commander", "Operative"]
                 },
                 "Situational Awareness": {
                     "points": 2,
@@ -1346,8 +1491,102 @@
                 "Smoke Grenades": {
                     "points": 6,
                     "restrictions": []
+                },
+                "Sonic Imploders": {
+                    "points": 5,
+                    "restrictions": []
                 }
             },
+            "Hardpoint": {
+                "88 Twin Light Blaster Cannon": {
+                    "points": 20,
+                    "restrictions": ["AT-ST"]
+                },
+                "AT-ST Mortar Launcher": {
+                    "points": 10,
+                    "restrictions": ["AT-ST"]
+                },
+                "DW-3 Concussion Grenade Launcher": {
+                    "points": 15,
+                    "restrictions": ["AT-ST"]
+                },
+                "DLT-19 Rifle Pintle": {
+                    "points": 18,
+                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"]
+                },
+                "RT-97C Rifle Pintle": {
+                    "points": 14,
+                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"]
+                },
+                "AT-RT Flamethrower": {
+                    "points": 25,
+                    "restrictions": ["AT-RT"]
+                },
+                "AT-RT Laser Cannon": {
+                    "points": 35,
+                    "restrictions": ["AT-RT"]
+                },
+                "AT-RT Rotary Blaster": {
+                    "points": 30,
+                    "restrictions": ["AT-RT"]
+                },
+                "Twin Beam Cannons": {
+                    "points": 40,
+                    "restrictions": ["Infantry Support Platform"]
+                },
+                "Twin Blaster Cannons": {
+                    "points": 40,
+                    "restrictions": ["Infantry Support Platform"]
+                },
+                "Twin Missle Pods": {
+                    "points": 40,
+                    "restrictions": ["Infantry Support Platform"]
+                },
+                "TX-130 Beam Cannon Turret": {
+                    "points": 30,
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                },
+                "TX-130 Twin Laser Turret": {
+                    "points": 14,
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                },
+                "Ax-100 Ground Buzzer": {
+                    "points": 20,
+                    "restrictions": ["T-47 Airspeeder"]
+                },
+                "Mo/Dk Power Harpoon": {
+                    "points": 8,
+                    "restrictions": ["T-47 Airspeeder"]
+                },
+                "Heavy Laser Retrofit": {
+                    "points": 16,
+                    "restrictions": ["A-A5 Speeder Truck"]
+                },
+                "AG-2G Quad Laser": {
+                    "points": 36,
+                    "restrictions": ["A-A5 Speeder Truck"]
+                },
+                "M-45 Ion Blaster": {
+                    "points": 38,
+                    "restrictions": ["X-34 Landspeeder"]
+                },
+                "Mark II Medium Blaster": {
+                    "points": 34,
+                    "restrictions": ["X-34 Landspeeder"]
+                },
+                "Nose-Mounted Ion Blaster": {
+                    "points": 10,
+                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                },
+                "Nose-Mounted Flamethrower": {
+                    "points": 15,
+                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                },
+                "Nose-Mounted Laser Cannon": {
+                    "points": 15,
+                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                }
+            },           
             "Heavy Weapon": {
                 "B2-ACM Trooper": {
                     "points": 26,
@@ -1663,19 +1902,23 @@
                 },
                 "2-1B Medical Droid": {
                     "points": 18,
-                    "restrictions": ["Rebels"]
+                    "restrictions": [],
+                    "faction": "Rebels"
                 },
                 "R5 Astromech Droid": {
                     "points": 8,
-                    "restrictions": ["Rebels"]
+                    "restrictions": [],
+                    "faction": "Rebels"
                 },
                 "Rebel Comms Technician": {
                     "points": 9,
-                    "restrictions": ["Rebels"]
+                    "restrictions": [],
+                    "faction": "Rebels"
                 },
                 "Rebel Officer": {
                     "points": 19,
-                    "restrictions": ["Rebels"]
+                    "restrictions": [],
+                    "faction": "Rebels"
                 },
                 "Fleet Trooper": {
                     "points": 11,
@@ -1699,19 +1942,23 @@
                 },
                 "FX-9 Medical Droid": {
                     "points": 19,
-                    "restrictions": ["Empire"]
+                    "restrictions": [],
+                    "faction": "Empire"
                 },
                 "Imperial Comms Technician": {
                     "points": 10,
-                    "restrictions": ["Empire"]
+                    "restrictions": [],
+                    "faction": "Empire"
                 },
                 "Imperial Officer": {
                     "points": 20,
-                    "restrictions": ["Empire"]
+                    "restrictions": [],
+                    "faction": "Empire"
                 },
                 "R4 Astromech Droid": {
                     "points": 9,
-                    "restrictions": ["Empire"]
+                    "restrictions": [],
+                    "faction": "Empire"
                 },
                 "Shoretrooper": {
                     "points": 13,
@@ -1753,47 +2000,58 @@
             "Pilot": {
                 "Baron Rudor": {
                     "points": 12,
-                    "restrictions": ["Empire", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Empire"
                 },
                 "Imperial Tie Pilot": {
                     "points": 8,
-                    "restrictions": ["Empire", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Empire"
                 },
                 "General Weiss": {
                     "points": 10,
-                    "restrictions": ["Empire", "Ground Vehicle"]
+                    "restrictions": ["Ground Vehicle"],
+                    "faction": "Empire"
                 },
                 "Imperial Hammers Elite Armor Pilot": {
                     "points": 10,
-                    "restrictions": ["Empire", "Ground Vehicle"]
+                    "restrictions": ["Ground Vehicle"],
+                    "faction": "Empire"
                 },
                 "First Sergeant Arbmab": {
                     "points": 5,
-                    "restrictions": ["Empire", "Ground Vehicle"]
+                    "restrictions": ["Ground Vehicle"],
+                    "faction": "Empire"
                 },
                 "Governor Pryce": {
                     "points": 10,
-                    "restrictions": ["Empire", "Heavy"]
+                    "restrictions": ["Heavy"],
+                    "faction": "Empire"
                 },
                 "Hotshot Pilot": {
                     "points": 8,
-                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Rebels"
                 },
                 "Outer Rim Speeder Jockey": {
                     "points": 10,
-                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Rebels"
                 },
                 "Ryder Azadi": {
                     "points": 5,
-                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Rebels"
                 },
                 "Wedge Antilles": {
                     "points": 5,
-                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                    "restrictions": ["Repulsor Vehicle"],
+                    "faction": "Rebels"
                 },
                 "Shriv Suurgav": {
                     "points": 10,
-                    "restrictions": ["Rebels", "Heavy"]
+                    "restrictions": ["Heavy"],
+                    "faction": "Rebels"
                 },
                 "Reckless Driver": {
                     "points": 6,
@@ -1817,15 +2075,18 @@
                 },
                 "Clone Commander Fox": {
                     "points": 10,
-                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                    "restrictions": ["LAAT/LE Patrol Transport"],
+                    "faction": "Republic"
                 },
                 "Clone Shock Trooper Pilot": {
                     "points": 4,
-                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                    "restrictions": ["LAAT/LE Patrol Transport"],
+                    "faction": "Republic"
                 },
                 "Hound & Grizzler": {
                     "points": 8,
-                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                    "restrictions": ["LAAT/LE Patrol Transport"],
+                    "faction": "Republic"
                 },
                 "Lok Durd": {
                     "points": 9,
@@ -1838,6 +2099,16 @@
                 "T-Series Tactical Droid Pilot": {
                     "points": 5,
                     "restrictions": ["AAT Trade Federation Battle Tank"]
+                },
+                "Frenzied Gunner": {
+                    "points": 5,
+                    "restrictions": ["Heavy"],
+                    "faction": "Mercenaries"
+                },
+                "Raiding Party Leader": {
+                    "points": 10,
+                    "restrictions": ["Heavy"],
+                    "faction": "Mercenaries"
                 }
 
             },
@@ -1860,7 +2131,8 @@
                 },
                 "Nanny Programming": {
                     "points": 0,
-                    "restrictions": ["Rebels", "IG-11"]
+                    "restrictions": ["IG-11"],
+                    "faction": "Rebels"
                 },
                 "Programmed Loyalty": {
                     "points": 5,
