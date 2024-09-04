@@ -34,7 +34,6 @@ class Unit:
                 return
         print(f"No available slot for upgrade type {type}")
         
-        # Check if upgrade is unique, duplicate upgrades not allowed!
             
     def remove_upgrade(self, name, type, army):
         for slot in self.upgrade_slots:            

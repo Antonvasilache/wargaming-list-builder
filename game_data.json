@@ -1039,100 +1039,916 @@
     },
     "upgrade_cards": {
         "type": {
+            "Armament": {
+                "A-180": {
+                    "points": 0,
+                    "restrictions": ["Jyn Erso"]
+                },
+                "Jyn's SE-14 Blaster": {
+                    "points": 10,
+                    "restrictions": ["Jyn Erso"]
+                },
+                "A-280": {
+                    "points": 10,
+                    "restrictions": ["Cassian Andor"]
+                },
+                "A-300": {
+                    "points": 6,
+                    "restrictions": ["Rebel Pathfinders"]
+                },
+                "Beskar Spear": {
+                    "points": 15,
+                    "restrictions": ["Din Djarin"]
+                },
+                "Din's Amban Rifle": {
+                    "points": 10,
+                    "restrictions": ["Din Djarin"]
+                },
+                "Deflector Shields": {
+                    "points": 18,
+                    "restrictions": ["BX-Series Droid Commandos"]
+                },   
+                "Vibroswords": {
+                    "points": 6,
+                    "restrictions": ["BX-Series Droid Commandos"]
+                },             
+                "Iden's DLT-20A Rifle": {
+                    "points": 15,
+                    "restrictions": ["Iden Versio"]
+                },
+                "Iden's TL-50 Repeater": {
+                    "points": 15,
+                    "restrictions": ["Iden Versio"]
+                },
+                "DT-57 Annihilator": {
+                    "points": 12,
+                    "restrictions": ["General Grievous"]
+                },
+                "E-11D": {
+                    "points": 8,
+                    "restrictions": ["Imperial Death Troopers"]
+                },
+                "Electro Gauntlents": {
+                    "points": 10,
+                    "restrictions": ["Cad Bane"]
+                },
+                
+                "J-19 Bo-Rifle": {
+                    "points": 25,
+                    "restrictions": ["Agent Kallus"]
+                },
+                "Jetpack Rockets": {
+                    "points": 8,
+                    "restrictions": ["Mandalorian Resistance", "Mandalorian Resistance (Clan Wren)"]
+                },
+                
+                "Looted E-5 Blaster": {
+                    "points": 5,
+                    "restrictions": ["Padme Amidala"]
+                },
+                "CR-24 Flame Rifle": {
+                    "points": 20,
+                    "restrictions": ["Dewback Rider"]
+                },
+                "RT-97C Blaster Rifle": {
+                    "points": 15,
+                    "restrictions": ["Dewback Rider"]
+                },
+                "T-21 Blaster Rifle": {
+                    "points": 10,
+                    "restrictions": ["Dewback Rider"]
+                },
+                "The Darksaber": {
+                    "points": 25,
+                    "restrictions": ["Sabine Wren"]
+                }  
+            },
             "Force": {
+                "Anger": {
+                    "points": 5,
+                    "restrictions": ["Dark Side"]
+                },
+                "Fear": {
+                    "points": 3,
+                    "restrictions": ["Dark Side"]
+                },
+                "Force Choke": {
+                    "points": 5,
+                    "restrictions": ["Dark Side"]
+                },
+                "Hope": {
+                    "points": 3,
+                    "restrictions": ["Light Side"]
+                },
+                "Jedi Mind Trick": {
+                    "points": 5,
+                    "restrictions": ["Light Side"]
+                },
+                "Battle Meditation": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "Burst of Speed": {
+                    "points": 3,
+                    "restrictions": []
+                },
                 "Force Push": {
-                    "points": 10
-                  },
+                    "points": 10,
+                    "restrictions": []
+                },
                 "Force Reflexes": {
-                    "points": 5
+                    "points": 15,
+                    "restrictions": []
+                },
+                "Force Barrier": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                  "Force Guidance": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "Force Lift": {
+                    "points": 5,
+                    "restrictions": []
                   },
                 "Saber Throw": {
-                    "points": 5
+                    "points": 10,
+                    "restrictions": []
                   }
             },
-            "Gear": {
+            "Gear": {                
+                "Boba's Flame Projector": {
+                  "points": 5,
+                  "restrictions": ["Boba Fett"]
+                  },
+                "Electro Grappling Line": {
+                  "points": 5,
+                  "restrictions": ["Sabine Wren"]
+                  },   
+                "Personal Combat Shield": {
+                  "points": 10,
+                  "restrictions": ["Sabine Wren"]
+                  },  
+                "JT-12 Jetpacks": {
+                  "points": 10,
+                  "restrictions": ["Clone Captain Rex", "ARC Troopers"]
+                  },  
+                "Ascension Cables": {
+                  "points": 4,
+                  "restrictions": []
+                  },    
                 "Electrobinoculars": {
-                  "points": 8
-                  },
+                  "points": 8,
+                  "restrictions": []
+                  },             
                 "Emergency Stims": {
-                  "points": 12
+                  "points": 8,
+                  "restrictions": []
                   },
+                "Environmental Gear": {
+                  "points": 3,
+                  "restrictions": []
+                  },  
                 "Grappling Hooks": {
-                  "points": 3
+                  "points": 3,
+                  "restrictions": []
                   },
-                  "Portable Scanner": {
-                  "points": 6
+                "Portable Scanner": {
+                  "points": 6,
+                  "restrictions": []
+                  },
+                "Recon Intel": {
+                  "points": 2,
+                  "restrictions": []
+                  },
+                "Targeting Scopes": {
+                  "points": 6,
+                  "restrictions": []
                   }
             },
-            "Comms": {
-                "Comms Jammer": {
-                    "points": 15
+            "Comms": {                
+                "Command Control Array": {
+                    "points": 2,
+                    "restrictions": ["Vehicle"]
+                  },
+                  "Comms Relay": {
+                    "points": 5,
+                    "restrictions": ["Non-emplacement Trooper"]
+                  },
+                  "Comms Jammer": {
+                    "points": 15,
+                    "restrictions": []
+                  },
+                  "Hacked Comms Unit": {
+                    "points": 5,
+                    "restrictions": []
                   },
                   "HQ Uplink": {
-                    "points": 10
+                    "points": 10,
+                    "restrictions": []
+                  },
+                  "Integrated Comms Antenna": {
+                    "points": 3,
+                    "restrictions": ["Droid Trooper"]
+                  },
+                  "Linked Targeting Array": {
+                    "points": 5,
+                    "restrictions": ["Emplacement Trooper", "Vehicle"]
                   },
                   "Long-Range Comlink": {
-                    "points": 5
+                    "points": 10,
+                    "restrictions": []
+                  },
+                  "Onboard Comms Channel": {
+                    "points": 3,
+                    "restrictions": ["Vehicle"]
                   }
             },
+            "Generator": {
+                "Barrage Generator": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "Overcharged Generator": {
+                    "points": 10,
+                    "restrictions": []
+                }
+            },            
             "Training":
             {
-               "Targeting Scopes": {
-                "points": 4
+                "Defensive Stance": {
+                    "points": 5,
+                    "restrictions": ["Force user"]
                 },
-                "Tenacity": {
-                "points": 4
+                "Duck and Cover": {
+                    "points": 8,
+                    "restrictions": []
+                },
+                "Endurance": {
+                    "points": 6,
+                    "restrictions": []
                 },
                 "Hunter": {
-                "points": 6
+                    "points": 6,
+                    "restrictions": []
                 },
-                "Recon Intel": {
-                "points": 2
-                }
+                "Into the Fray": {
+                    "points": 4,
+                    "restrictions": []
+                },
+                "Offensive Push": {
+                    "points": 4,
+                    "restrictions": []
+                },
+                "Offensive Stance": {
+                    "points": 5,
+                    "restrictions": ["Force user"]
+                },
+                "Overwatch": {
+                    "points": 4,
+                    "restrictions": []
+                },
+                "Protector": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Seize the Initiative": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Situational Awareness": {
+                    "points": 2,
+                    "restrictions": []
+                },
+                "Tenacity": {
+                    "points": 4,
+                    "restrictions": []
+                }               
             },
             "Grenades": {
-                "Impact Grenades": {
-                "points": 5
+                "Concussion Grenades": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "EMP Droid Poppers": {
+                    "points": 3,
+                    "restrictions": []
                 },
                 "Fragmentation Grenades": {
-                "points": 5
+                    "points": 5,
+                    "restrictions": []
                 },
+                "Impact Grenades": {
+                    "points": 5,
+                    "restrictions": []
+                },                
                 "Smoke Grenades": {
-                "points": 2
+                    "points": 6,
+                    "restrictions": []
                 }
             },
             "Heavy Weapon": {
-                "DX-2 Disruptor Rifle": {
-                "points": 26
+                "B2-ACM Trooper": {
+                    "points": 26,
+                    "restrictions": ["B2 Super Battle Droids"]
                 },
-                "MPL-57 Ion Trooper": {
-                "points": 24
+                "B2-HA Trooper": {
+                    "points": 32,
+                    "restrictions": ["B2 Super Battle Droids"]
                 },
-                "DLT-19 Stormtrooper": {
-                "points": 24
+                "BX-Series Droid Sniper": {
+                    "points": 30,
+                    "restrictions": ["BX-Series Droid Commandos"]
                 },
-                "T-21 Trooper": {
-                "points": 23
+                "Dioxis Mine Saboteur": {
+                    "points": 28,
+                    "restrictions": ["BX-Series Droid Commandos"]
                 },
-                "Z-6 Trooper": {
-                "points": 22
+                "E-5C B1 Trooper": {
+                    "points": 18,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "E-5s B1 Trooper": {
+                    "points": 20,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "E-60R B1 Trooper": {
+                    "points": 20,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "Radiation Cannon B1 Trooper": {
+                    "points": 22,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "Electro-whip MagnaGuard": {
+                    "points": 28,
+                    "restrictions": ["IG-100 MagnaGuard"]
+                },
+                "IG-100 MagnaGuard": {
+                    "points": 22,
+                    "restrictions": ["IG-100 MagnaGuard"]
+                },  
+                "RPS-6 MagnaGuard": {
+                    "points": 28,
+                    "restrictions": ["IG-100 MagnaGuard"]
+                },              
+                "Battle Shield Wookiee": {
+                    "points": 26,
+                    "restrictions": ["Wookiee Warriors"]
+                },
+                "Bowcaster Wookiee": {
+                    "points": 26,
+                    "restrictions": ["Wookiee Warriors"]
+                },
+                "Long Gun Wookiee": {
+                    "points": 26,
+                    "restrictions": ["Wookiee Warriors"]
+                },
+                "Beskad Duelist": {
+                    "points": 28,
+                    "restrictions": ["Mandalorian Resistance"]
+                },
+                "Tristan Wren": {
+                    "points": 38,
+                    "restrictions": ["Mandalorian Resistance"]
+                },
+                "Ursa Wren": {
+                    "points": 38,
+                    "restrictions": ["Mandalorian Resistance"]
+                },
+                "Bistan": {
+                    "points": 32,
+                    "restrictions": ["Rebel Pathfinders"]
+                },
+                "Pao": {
+                    "points": 22,
+                    "restrictions": ["Rebel Pathfinders"]
                 },
                 "CM-0/93 Trooper": {
-                "points": 21
+                    "points": 31,
+                    "restrictions": ["Rebel Veterans"]
                 },
-                "DC-15X Sniper": {
-                "points": 28
+                "DH-447 Sniper": {
+                    "points": 28,
+                    "restrictions": ["Rebel Commandos"]
                 },
-                "RTC-97C Rifle": {
-                "points": 26
+                "Proton Charge Saboteur": {
+                    "points": 26,
+                    "restrictions": ["Rebel Commandos"]
+                },
+                "DLT-20A Trooper": {
+                    "points": 26,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "MPL-57 Barrage Trooper": {
+                    "points": 33,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "MPL-57 Ion Trooper": {
+                    "points": 32,
+                    "restrictions": ["Rebel Troopers"]
+                }, 
+                "Scatter Gun Trooper": {
+                    "points": 23,
+                    "restrictions": ["Rebel Troopers"]
+                }, 
+                "SX-21 Trooper": {
+                    "points": 20,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "Z-6 Trooper": {
+                    "points": 22,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "DC-15 Phase I Trooper": {
+                    "points": 30,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "DP-23 Phase I Trooper": {
+                    "points": 27,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "RPS-6 Phase I Trooper": {
+                    "points": 26,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "Z-6 Phase I Trooper": {
+                    "points": 25,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "Phase II Mortar Trooper": {
+                    "points": 25,
+                    "restrictions": ["Phase II Clone Troopers"]
+                },
+                "Z-6 Phase II Trooper": {
+                    "points": 27,
+                    "restrictions": ["Phase II Clone Troopers"]
+                },  
+                "DC-15x ARC Trooper": {
+                    "points": 31,
+                    "restrictions": ["ARC Troopers"]
+                },
+                "Echo": {
+                    "points": 40,
+                    "restrictions": ["ARC Troopers", "Clone Troopers"]
+                },
+                "Fives": {
+                    "points": 36,
+                    "restrictions": ["ARC Troopers", "Clone Troopers"]
+                },
+                "Del Meeko": {
+                    "points": 38,
+                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"]
+                },
+                "Gideon Hask": {
+                    "points": 38,
+                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"]
+                },
+                "DLT-19 Stormtrooper": {
+                    "points": 24,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "HH-12 Stormtrooper": {
+                    "points": 34,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "RT-97C Stormtrooper": {
+                    "points": 26,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "T-21 Stormtrooper": {
+                    "points": 27,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "Flametrooper": {
+                    "points": 20,
+                    "restrictions": ["Snowtroopers"]
+                },
+                "T-7 Ion Snowtrooper": {
+                    "points": 34,
+                    "restrictions": ["Snowtroopers"]
+                },
+                "T-21B Trooper": {
+                    "points": 32,
+                    "restrictions": ["Shoretroopers"]
+                },
+                "DLT-19x Sniper": {
+                    "points": 28,
+                    "restrictions": ["Scout Troopers"]
+                },
+                "Sonic Charge Saboteur": {
+                    "points": 26,
+                    "restrictions": ["Scout Troopers"]
+                },
+                "DT-F16": {
+                    "points": 22,
+                    "restrictions": ["Imperial Death Troopers"]
+                },
+                "DLT-19D Trooper": {
+                    "points": 34,
+                    "restrictions": ["Imperial Death Troopers"]
+                },    
+                "Electrostaff Guard": {
+                    "points": 25,
+                    "restrictions": ["Imperial Royal Guards"]
+                }, 
+                "Mertalizer": {
+                    "points": 36,
+                    "restrictions": ["Imperial Dark Troopers"]
+                },  
+                "SM-9 Frag Launcher": {
+                    "points": 40,
+                    "restrictions": ["Imperial Dark Troopers"]
+                }, 
+                "XS-IV Assault Cannon": {
+                    "points": 48,
+                    "restrictions": ["Imperial Dark Troopers"]
+                }, 
+                "Electro-whip Soldier": {
+                    "points": 10,
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                },  
+                "P13-M Disruptor Soldier": {
+                    "points": 24,
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                },  
+                "Mag-Det Enforcer": {
+                    "points": 14,
+                    "restrictions": ["Black Sun Enforcers"]
+                },  
+                "Scatter Gun Enforcer": {
+                    "points": 28,
+                    "restrictions": ["Black Sun Enforcers"]
+                }              
+            },
+            "Ordnance": {
+                "Bunker Buster Shells": {
+                    "points": 12,
+                    "restrictions": []
+                },
+                "Armor-Piercing Shells": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "High-Energy Shells": {
+                    "points": 8,
+                    "restrictions": []
                 }
             },
-            "Command": {
-                "Seize the Initiative": {
-                "points": 5
+            "Personnel": {
+                "B1 Battle Droid": {
+                    "points": 6,
+                    "restrictions": ["B1 Battle Droids"]
                 },
+                "B1 Security Droid": {
+                    "points": 9,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "OOM-Series Battle Droid": {
+                    "points": 12,
+                    "restrictions": ["B1 Battle Droids"]
+                },
+                "B2 Super Battle Droid": {
+                    "points": 16,
+                    "restrictions": ["B2 Super Battle Droids"]
+                },
+                "EV-Series Medical Droid": {
+                    "points": 14,
+                    "restrictions": ["Droid Troopers"]
+                },
+                "PK-Series Worker Droid": {
+                    "points": 12,
+                    "restrictions": ["Droid Troopers"]
+                },
+                "T-Series Tactical Droid": {
+                    "points": 18,
+                    "restrictions": ["Droid Troopers"]
+                },
+                "Viper Recon Droid": {
+                    "points": 8,
+                    "restrictions": ["Droid Troopers"]
+                },
+                "Clone Commander": {
+                    "points": 20,
+                    "restrictions": ["Clone Troopers"]
+                },
+                "Clone Comms Technician": {
+                    "points": 12,
+                    "restrictions": ["Clone Troopers"]
+                },
+                "Clone Engineer": {
+                    "points": 18,
+                    "restrictions": ["Clone Troopers"]
+                },
+                "Clone Medic": {
+                    "points": 20,
+                    "restrictions": ["Clone Troopers"]
+                },
+                "Phase I Clone Trooper": {
+                    "points": 13,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "Phase I Clone Captain": {
+                    "points": 17,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "Phase I Clone Specialist": {
+                    "points": 17,
+                    "restrictions": ["Phase I Clone Troopers"]
+                },
+                "Phase II Clone Trooper": {
+                    "points": 15,
+                    "restrictions": ["Phase II Clone Troopers"]
+                },
+                "2-1B Medical Droid": {
+                    "points": 18,
+                    "restrictions": ["Rebels"]
+                },
+                "R5 Astromech Droid": {
+                    "points": 8,
+                    "restrictions": ["Rebels"]
+                },
+                "Rebel Comms Technician": {
+                    "points": 9,
+                    "restrictions": ["Rebels"]
+                },
+                "Rebel Officer": {
+                    "points": 19,
+                    "restrictions": ["Rebels"]
+                },
+                "Fleet Trooper": {
+                    "points": 11,
+                    "restrictions": ["Fleet Troopers"]
+                },
+                "Rebel Trooper": {
+                    "points": 10,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "Rebel Trooper Captain": {
+                    "points": 14,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "Rebel Trooper Specialist": {
+                    "points": 14,
+                    "restrictions": ["Rebel Troopers"]
+                },
+                "Rebel Veteran": {
+                    "points": 12,
+                    "restrictions": ["Rebel Veterans"]
+                },
+                "FX-9 Medical Droid": {
+                    "points": 19,
+                    "restrictions": ["Empire"]
+                },
+                "Imperial Comms Technician": {
+                    "points": 10,
+                    "restrictions": ["Empire"]
+                },
+                "Imperial Officer": {
+                    "points": 20,
+                    "restrictions": ["Empire"]
+                },
+                "R4 Astromech Droid": {
+                    "points": 9,
+                    "restrictions": ["Empire"]
+                },
+                "Shoretrooper": {
+                    "points": 13,
+                    "restrictions": ["Shoretroopers"]
+                },
+                "Snowtrooper": {
+                    "points": 13,
+                    "restrictions": ["Snowtroopers"]
+                },
+                "Stormtrooper": {
+                    "points": 11,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "Stormtrooper Captain": {
+                    "points": 15,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "Stormtrooper Specialist": {
+                    "points": 15,
+                    "restrictions": ["Stormtroopers"]
+                },
+                "Black Sun Enforcer": {
+                    "points": 11,
+                    "restrictions": ["Black Sun Enforcers"]
+                },
+                "Black Sun Vigo": {
+                    "points": 18,
+                    "restrictions": ["Black Sun Enforcers"]
+                },
+                "Pyke Syndicate Capo": {
+                    "points": 16,
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                },
+                "Pyke Syndicate Foot Soldier": {
+                    "points": 9,
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                }
+            },
+            "Pilot": {
+                "Baron Rudor": {
+                    "points": 12,
+                    "restrictions": ["Empire", "Repulsor Vehicle"]
+                },
+                "Imperial Tie Pilot": {
+                    "points": 8,
+                    "restrictions": ["Empire", "Repulsor Vehicle"]
+                },
+                "General Weiss": {
+                    "points": 10,
+                    "restrictions": ["Empire", "Ground Vehicle"]
+                },
+                "Imperial Hammers Elite Armor Pilot": {
+                    "points": 10,
+                    "restrictions": ["Empire", "Ground Vehicle"]
+                },
+                "First Sergeant Arbmab": {
+                    "points": 5,
+                    "restrictions": ["Empire", "Ground Vehicle"]
+                },
+                "Governor Pryce": {
+                    "points": 10,
+                    "restrictions": ["Empire", "Heavy"]
+                },
+                "Hotshot Pilot": {
+                    "points": 8,
+                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                },
+                "Outer Rim Speeder Jockey": {
+                    "points": 10,
+                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                },
+                "Ryder Azadi": {
+                    "points": 5,
+                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                },
+                "Wedge Antilles": {
+                    "points": 5,
+                    "restrictions": ["Rebels", "Repulsor Vehicle"]
+                },
+                "Shriv Suurgav": {
+                    "points": 10,
+                    "restrictions": ["Rebels", "Heavy"]
+                },
+                "Reckless Driver": {
+                    "points": 6,
+                    "restrictions": ["A-A5 Speeder Truck"]
+                },
+                "327th Star Corps Elite Armor Pilots": {
+                    "points": 5,
+                    "restrictions": ["Infantry Support Platform"]
+                },
+                "Aayla Secura": {
+                    "points": 5,
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                },
+                "Plo Koon": {
+                    "points": 9,
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                },
+                "Veteran Clone Pilot": {
+                    "points": 7,
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                },
+                "Clone Commander Fox": {
+                    "points": 10,
+                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                },
+                "Clone Shock Trooper Pilot": {
+                    "points": 4,
+                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                },
+                "Hound & Grizzler": {
+                    "points": 8,
+                    "restrictions": ["Republic", "LAAT/LE Patrol Transport"]
+                },
+                "Lok Durd": {
+                    "points": 9,
+                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                },
+                "OOM-Series Droid Pilot": {
+                    "points": 7,
+                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                },
+                "T-Series Tactical Droid Pilot": {
+                    "points": 5,
+                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                }
+
+            },
+            "Protocol": {
+                "Attack Protocols": {
+                    "points": 3,
+                    "restrictions": ["Vehicle"]
+                },
+                "Defense Protocols": {
+                    "points": 3,
+                    "restrictions": ["Vehicle"]
+                },
+                "Engagement Protocols": {
+                    "points": 5,
+                    "restrictions": ["Vehicle"]
+                },
+                "Bounty Programming": {
+                    "points": 5,
+                    "restrictions": ["IG-11"]
+                },
+                "Nanny Programming": {
+                    "points": 0,
+                    "restrictions": ["Rebels", "IG-11"]
+                },
+                "Programmed Loyalty": {
+                    "points": 5,
+                    "restrictions": ["Imperial Dark Troopers"]
+                }
+            },
+            "Command": {                
                 "Underworld Connections": {
-                "points": 10
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Lead by example": {
+                    "points": 8,
+                    "restrictions": []
+                },
+                "Vigilance": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Strict Orders": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Inspiring Presence": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Improvised Orders": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "Esteemed Leader": {
+                    "points": 5,
+                    "restrictions": []
+                },
+                "Commanding Presence": {
+                    "points": 10,
+                    "restrictions": []
+                },
+                "Aggressive Tactics": {
+                    "points": 10,
+                    "restrictions": []
+                }
+            },
+            "Crew": {
+                "Unstable R5 Astromech": {
+                    "points": 6,
+                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"]
+                },
+                "Refurbished Gonk Droid": {
+                    "points": 10,
+                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"]
+                },
+                "Unorthodox Tactician": {
+                    "points": 10,
+                    "restrictions": ["A-A5 Speeder Truck"]
+                },
+                "Backworld Medic": {
+                    "points": 12,
+                    "restrictions": ["A-A5 Speeder Truck"]
+                },
+                "RPS-6 Rocket Gunner": {
+                    "points": 36,
+                    "restrictions": ["X-34 Landspeeder"]
+                },
+                "A-300 Rifle Gunner": {
+                    "points": 9,
+                    "restrictions": ["X-34 Landspeeder"]
+                },
+                "Gnasp Gunner": {
+                    "points": 25,
+                    "restrictions": ["Raddaugh Gnasp Fluttercraft"]
+                },
+                "Gnasp Bombardier": {
+                    "points": 20,
+                    "restrictions": ["Raddaugh Gnasp Fluttercraft"]
+                },
+                "BARC Twin Laser Gunner": {
+                    "points": 18,
+                    "restrictions": ["BARC Speeder"]
+                },
+                "BARC RPS-6 Gunner": {
+                    "points": 26,
+                    "restrictions": ["BARC Speeder"]
+                },
+                "BARC Ion Gunner": {
+                    "points": 28,
+                    "restrictions": ["BARC Speeder"]
                 }
             }
         } 
