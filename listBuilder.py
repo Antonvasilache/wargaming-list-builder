@@ -1,4 +1,7 @@
 import json
+import pickle
+import os
+from tkinter import simpledialog
 
 class ListBuilder:
     def __init__(self, faction, max_points):
@@ -45,11 +48,33 @@ class ListBuilder:
     def remove_command_card(self, command_card):
         pass
     
-    def save_list(self, filename):
-        pass
+    def save_list(self):
+        list_name = simpledialog.askstring("Save army list", "Enter the name of your army:")
+        
+        if not list_name:
+            return
+        
+        filename = f"{list_name}.pkl"        
+        current_directory = os.getcwd()
+        file_path = os.path.join(current_directory, filename)
+        
+        try:
+            with open(file_path, 'wb') as file:
+                pickle.dump(self, file)
+            print(f"List saved successfully to {filename}")
+        except Exception as e:
+            print(f"Error saving list: {e}")
+            
     
     def load_list(self, filename):
-        pass
+        try:
+            with open(filename, 'rb') as file:
+                army_list = pickle.load(file)
+            print(f"List loaded successfully from {filename}")
+            return army_list
+        except Exception as e:
+            print(f"error loading list: {e}")
+            return None
     
     def clear_list(self):
         # add 'are you sure' message

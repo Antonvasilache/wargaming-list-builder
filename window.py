@@ -3,7 +3,7 @@ from tkinter import Tk, messagebox, Label, Button
 class Window:
     def __init__(self, width=1920, height=1080):
         self.root = Tk()
-        self.root.title = ("Star Wars Legion List Builder")
+        self.root.title("Star Wars Legion List Builder")
         self.root.geometry(f"{width}x{height}")
         self.widgets = []        
         
@@ -21,9 +21,8 @@ class Window:
         messagebox.showinfo(title, message)
         
     def clear_widgets(self):
-        for widget in self.widgets:
-            widget.pack_forget()
-        self.widgets.clear()
+        for widget in self.root.winfo_children():
+            widget.destroy()
         
     def start(self):
         self.root.mainloop()

@@ -6,6 +6,7 @@ from listBuilder import ListBuilder
 from tkinter import Label, Frame, Button, Canvas, Scrollbar
 from PIL import Image, ImageTk
 import json
+import os
 
 
 class App:
@@ -21,6 +22,7 @@ class App:
             return json.load(file)   
         
     def setup_start_menu(self):
+        self.window.clear_widgets()  
         self.window.add_label("Select your faction: ")
         
         for faction_name in self.faction_names:
@@ -28,18 +30,40 @@ class App:
             
     
     def select_faction(self, faction_name):
-        selected_faction = self.factions[faction_name].name
-        print(selected_faction)
+        selected_faction = self.factions[faction_name].name       
                 
         self.window.clear_widgets()        
         
         self.setup_list_builder(selected_faction)
         
+    # def save_current_list(self, army_list):
+    #     filename = "army_list.pkl"
+    #     army_list.save_list(filename)
+        
     def setup_list_builder(self, selected_faction):  
         faction = Faction(selected_faction)
         army_list = ListBuilder(faction, 1000)
-        print("allowed unit types:", army_list.allowed_unit_types)
-        print("current unit types:",army_list.current_unit_types)
+        
+        # Menu frame
+        menu_frame = Frame(self.window.root, pady=10)
+        menu_frame.pack(fill='x', pady=(10,5))
+        
+        # Menu buttons
+        new_list_button = Button(
+            menu_frame,
+            text="New list",
+            font=("Helvetica", 12),
+            command=self.setup_start_menu
+        )
+        new_list_button.pack(side='left', padx=(0,5), pady=5, ipadx=10, ipady=5)
+        
+        save_list_button = Button(
+            menu_frame,
+            text="Save list",
+            font=("Helvetica", 12),
+            command=army_list.save_list
+        )
+        save_list_button.pack(side='right', padx=(0,5), pady=5, ipadx=10, ipady=5)
        
         # Add a header for the list builder
         self.header_frame = Frame(self.window.root, pady=10)
