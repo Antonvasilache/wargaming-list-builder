@@ -383,7 +383,7 @@ class App:
             upgrade_button = Button(
                 upgrade_row_frame,
                 text=upgrade_name,
-                command=lambda u_name=upgrade_name, u_value=upgrade_value: self.show_upgrade_details(u_name, u_value),                
+                command=lambda u_name=upgrade_name, u_value=upgrade_value, u_type=upgrade_type: self.show_upgrade_details(u_name, u_value, u_type),                
             )
             upgrade_button.pack(side='left', padx=(0,5), pady=5)
             
@@ -423,7 +423,7 @@ class App:
                     upgrade_button = Button(
                         upgrade_frame,
                         text=upgrade_name,
-                        command=lambda: self.show_upgrade_details(upgrade_name, upgrade_value),
+                        command=lambda: self.show_upgrade_details(upgrade_name, upgrade_value, upgrade_type),
                         padx=5, pady=5
                     )
                     upgrade_button.pack(side='left', padx=(0,5), pady=5)
@@ -450,10 +450,29 @@ class App:
                         upgrade_frame.pack(pady=5, fill='x') 
                     return     
        
-    def show_upgrade_details(self, name, value):
+    def show_upgrade_details(self, name, value, type):
         widgets = self.unit_details_frame.winfo_children()        
         for index in range (1, len(widgets)):
             widgets[index].destroy()  
+            
+        image_url = self.data["upgrade_cards"]["type"][type][name]["image_url"]
+        
+        double_size = ["A-180", "A-280", "A-300", "E-11D", "J-19 Bo-Rifle", "Battle Shield Wookiee"]
+        
+        try:
+            image = get_image(image_url)
+            if name in double_size:
+                image = image.resize((350, 250), Image.Resampling.LANCZOS)
+            else:
+                image = image.resize((175, 250), Image.Resampling.LANCZOS)
+            photo = ImageTk.PhotoImage(image)
+            
+            image_label = Label(self.unit_details_frame, image=photo)
+            image_label.image = photo
+            image_label.pack(pady=10)
+        except Exception as e:
+            print(f"Error loading image for {name}: {e}")     
+       
         
         details_label = Label(
             self.unit_details_frame, 

@@ -1179,935 +1179,1156 @@
             "Armament": {
                 "A-180": {
                     "points": 0,
-                    "restrictions": ["Jyn Erso"]
+                    "restrictions": ["Jyn Erso"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66de9f69002e79b10b2e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jyn's SE-14 Blaster": {
                     "points": 10,
-                    "restrictions": ["Jyn Erso"]
+                    "restrictions": ["Jyn Erso"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea22d00029e44337e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-280": {
                     "points": 10,
-                    "restrictions": ["Cassian Andor"]
+                    "restrictions": ["Cassian Andor"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66de9fb90023459f8312/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-300": {
                     "points": 6,
-                    "restrictions": ["Rebel Pathfinders"]
+                    "restrictions": ["Rebel Pathfinders"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea020002d1098ad32/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Beskar Spear": {
                     "points": 15,
-                    "restrictions": ["Din Djarin"]
+                    "restrictions": ["Din Djarin"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea0ff00258507d2e1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Din's Amban Rifle": {
                     "points": 10,
-                    "restrictions": ["Din Djarin"]
+                    "restrictions": ["Din Djarin"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea15a0023db7372c0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Deflector Shields": {
                     "points": 18,
-                    "restrictions": ["BX-Series Droid Commandos"]
+                    "restrictions": ["BX-Series Droid Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1390013f3e3b120/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },   
                 "Vibroswords": {
                     "points": 6,
-                    "restrictions": ["BX-Series Droid Commandos"]
+                    "restrictions": ["BX-Series Droid Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea29e0015d26a85ff/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },             
                 "Iden's DLT-20A Rifle": {
                     "points": 15,
-                    "restrictions": ["Iden Versio"]
+                    "restrictions": ["Iden Versio"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea16e0018179b9594/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Iden's TL-50 Repeater": {
                     "points": 15,
-                    "restrictions": ["Iden Versio"]
+                    "restrictions": ["Iden Versio"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1e90036e0c1ff65/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DT-57 Annihilator": {
                     "points": 12,
-                    "restrictions": ["General Grievous"]
+                    "restrictions": ["General Grievous"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea19c001574ae5770/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "E-11D": {
                     "points": 8,
-                    "restrictions": ["Imperial Death Troopers"]
+                    "restrictions": ["Imperial Death Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1c0000e5a75be10/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Electro Gauntlents": {
                     "points": 10,
-                    "restrictions": ["Cad Bane"]
+                    "restrictions": ["Cad Bane"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1d5002ffb11dfd8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 
                 "J-19 Bo-Rifle": {
                     "points": 25,
-                    "restrictions": ["Agent Kallus"]
+                    "restrictions": ["Agent Kallus"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1fe002ea351df0b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jetpack Rockets": {
                     "points": 8,
-                    "restrictions": ["Mandalorian Resistance", "Mandalorian Resistance (Clan Wren)"]
+                    "restrictions": ["Mandalorian Resistance", "Mandalorian Resistance (Clan Wren)"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea21a000bcd214a5d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 
                 "Looted E-5 Blaster": {
                     "points": 5,
-                    "restrictions": ["Padme Amidala"]
+                    "restrictions": ["Padme Amidala"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea2440001d29fdbca/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "CR-24 Flame Rifle": {
                     "points": 20,
-                    "restrictions": ["Dewback Rider"]
+                    "restrictions": ["Dewback Rider"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea1150036952282c5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "RT-97C Blaster Rifle": {
                     "points": 15,
-                    "restrictions": ["Dewback Rider"]
+                    "restrictions": ["Dewback Rider"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea264000093ec37e6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-21 Blaster Rifle": {
                     "points": 10,
-                    "restrictions": ["Dewback Rider"]
+                    "restrictions": ["Dewback Rider"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea27a0036211042b9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "The Darksaber": {
                     "points": 25,
-                    "restrictions": ["Sabine Wren"]
+                    "restrictions": ["Sabine Wren"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dea28c003907d76731/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }  
             },
             "Force": {
                 "Anger": {
                     "points": 5,
-                    "restrictions": ["Dark Side"]
+                    "restrictions": ["Dark Side"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaa8d00262858fb20/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Fear": {
                     "points": 3,
-                    "restrictions": ["Dark Side"]
+                    "restrictions": ["Dark Side"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab0300317aa6ec0d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Force Choke": {
                     "points": 5,
-                    "restrictions": ["Dark Side"]
+                    "restrictions": ["Dark Side"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab3f003ae3410a85/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Hope": {
                     "points": 3,
-                    "restrictions": ["Light Side"]
+                    "restrictions": ["Light Side"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deabd00018a84b3c19/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Jedi Mind Trick": {
                     "points": 5,
-                    "restrictions": ["Light Side"]
+                    "restrictions": ["Light Side"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deabe300370e359789/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Battle Meditation": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaad9003760792162/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Burst of Speed": {
                     "points": 3,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaaee0022f10583fc/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Force Push": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab96002899d70d5a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Force Reflexes": {
                     "points": 15,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deabbb0028c3a2ba84/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Force Barrier": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab1a003d96c6c4f2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                   "Force Guidance": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab5b000d56849c0e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Force Lift": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deab85001b53346261/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Saber Throw": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deabfa001ed417faca/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   }
             },
             "Gear": {                
                 "Boba's Flame Projector": {
                   "points": 5,
-                  "restrictions": ["Boba Fett"]
+                  "restrictions": ["Boba Fett"],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deac60001a96589728/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Electro Grappling Line": {
                   "points": 5,
-                  "restrictions": ["Sabine Wren"]
+                  "restrictions": ["Sabine Wren"],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deac8d000237f71c07/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },   
                 "Personal Combat Shield": {
                   "points": 10,
-                  "restrictions": ["Sabine Wren"]
+                  "restrictions": ["Sabine Wren"],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deace9001b7f621604/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },  
                 "JT-12 Jetpacks": {
                   "points": 10,
-                  "restrictions": ["Clone Captain Rex", "ARC Troopers"]
+                  "restrictions": ["Clone Captain Rex", "ARC Troopers"],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deacd5000dede985f0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },  
                 "Ascension Cables": {
                   "points": 4,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deac2e001959e71e68/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },    
                 "Electrobinoculars": {
                   "points": 8,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deac750016da903706/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },             
                 "Emergency Stims": {
                   "points": 8,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaca4001fbb3fc3fb/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Environmental Gear": {
                   "points": 3,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deacb6002bc78a3009/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },  
                 "Grappling Hooks": {
                   "points": 3,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deacc60001d90f0107/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Portable Scanner": {
                   "points": 6,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deacfa001bcac74ea9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Recon Intel": {
                   "points": 2,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dead0e0034fbab45fa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                 "Targeting Scopes": {
                   "points": 6,
-                  "restrictions": []
+                  "restrictions": [],
+                  "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dead1e0020c06158a9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   }
             },
             "Comms": {                
                 "Command Control Array": {
                     "points": 2,
-                    "restrictions": ["Vehicle"]
+                    "restrictions": ["Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae8e000a2c2f8d04/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Comms Relay": {
                     "points": 5,
-                    "restrictions": ["Non-emplacement Trooper"]
+                    "restrictions": ["Non-emplacement Trooper"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae29002ecf368ad7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Comms Jammer": {
                     "points": 15,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae39000c9f8cc5eb/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Emergency Transponder": {
                     "points": 4,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae470025f2e8c701/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Hacked Comms Unit": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae57003b973bded6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "HQ Uplink": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaea0000a747b8fbf/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Integrated Comms Antenna": {
                     "points": 3,
-                    "restrictions": ["Droid Troopers"]
+                    "restrictions": ["Droid Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae6b002f807534ff/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Linked Targeting Array": {
                     "points": 5,
-                    "restrictions": ["Emplacement Trooper", "Vehicle"]
+                    "restrictions": ["Emplacement Trooper", "Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deae7d003ad7046590/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Long-Range Comlink": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaeb2000becec5f16/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   },
                   "Onboard Comms Channel": {
                     "points": 3,
-                    "restrictions": ["Vehicle"]
+                    "restrictions": ["Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaec5000276eb0952/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                   }
             },
             "Generator": {
                 "Barrage Generator": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaef20033c16bcd97/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Overcharged Generator": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaf14000ac10218aa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },            
             "Training":
             {
                 "Defensive Stance": {
                     "points": 5,
-                    "restrictions": ["Force user"]
+                    "restrictions": ["Force user"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaf8f0025cf559ead/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Duck and Cover": {
                     "points": 8,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deaf9f00005e637423/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Endurance": {
                     "points": 6,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deafb1001da82ee2aa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Hunter": {
                     "points": 6,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deafc30039a94043e3/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Inquisitorious Training": {
                     "points": 5,
-                    "restrictions": ["Fifth Brother", "Seventh Sister"]
+                    "restrictions": ["Fifth Brother", "Seventh Sister"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb1a0003e33bbb14d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Into the Fray": {
                     "points": 4,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb027003a53bd342d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Offensive Push": {
                     "points": 4,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb03d000bca6aae8a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Offensive Stance": {
                     "points": 5,
-                    "restrictions": ["Force user"]
+                    "restrictions": ["Force user"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb07a000323042a6b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Overwatch": {
                     "points": 4,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb08c003bc0e475f6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Protector": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb09e001501e440e7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Seize the Initiative": {
                     "points": 5,
-                    "restrictions": ["Commander", "Operative"]
+                    "restrictions": ["Commander", "Operative"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb0b2001c023f96d8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Situational Awareness": {
                     "points": 2,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb0c20032fcfbb21c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Tenacity": {
                     "points": 4,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb0d6003b92a03540/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }               
             },
             "Grenades": {
                 "Concussion Grenades": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb1f3001787d316e8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "EMP Droid Poppers": {
                     "points": 3,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb205002b37e0f949/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Fragmentation Grenades": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb2190014bb2126bd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Impact Grenades": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb228002796c9fb49/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },                
                 "Smoke Grenades": {
                     "points": 6,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb237001d1af33069/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Sonic Imploders": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb246002510ab6d6f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "Hardpoint": {
                 "88 Twin Light Blaster Cannon": {
                     "points": 20,
-                    "restrictions": ["AT-ST"]
+                    "restrictions": ["AT-ST"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3270026f0e56de5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-ST Mortar Launcher": {
                     "points": 10,
-                    "restrictions": ["AT-ST"]
+                    "restrictions": ["AT-ST"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3730034530d777d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DW-3 Concussion Grenade Launcher": {
                     "points": 15,
-                    "restrictions": ["AT-ST"]
+                    "restrictions": ["AT-ST"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3d4002d1f7a2b3f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DLT-19 Rifle Pintle": {
                     "points": 18,
-                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"]
+                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3ba001450ae624a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "RT-97C Rifle Pintle": {
                     "points": 14,
-                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"]
+                    "restrictions": ["TX-225 GAVW Occupier Combat Assault Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb4af001c4bba1fd2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-RT Flamethrower": {
                     "points": 25,
-                    "restrictions": ["AT-RT"]
+                    "restrictions": ["AT-RT"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3370019aa584a9b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-RT Laser Cannon": {
                     "points": 35,
-                    "restrictions": ["AT-RT"]
+                    "restrictions": ["AT-RT"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb349003ccf098e5f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AT-RT Rotary Blaster": {
                     "points": 30,
-                    "restrictions": ["AT-RT"]
+                    "restrictions": ["AT-RT"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3600032033af79a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Twin Beam Cannons": {
                     "points": 40,
-                    "restrictions": ["Infantry Support Platform"]
+                    "restrictions": ["Infantry Support Platform"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb4c4003a909662db/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Twin Blaster Cannons": {
                     "points": 40,
-                    "restrictions": ["Infantry Support Platform"]
+                    "restrictions": ["Infantry Support Platform"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb4d800057d60dcb5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Twin Missle Pods": {
                     "points": 40,
-                    "restrictions": ["Infantry Support Platform"]
+                    "restrictions": ["Infantry Support Platform"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb50a003d05958c30/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "TX-130 Beam Cannon Turret": {
                     "points": 30,
-                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb51900024cce3d87/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "TX-130 Twin Laser Turret": {
                     "points": 14,
-                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb5290000b1817048/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
-                "Ax-100 Ground Buzzer": {
+                "Ax-108 Ground Buzzer": {
                     "points": 20,
-                    "restrictions": ["T-47 Airspeeder"]
+                    "restrictions": ["T-47 Airspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3900033f9d7ecc2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mo/Dk Power Harpoon": {
                     "points": 8,
-                    "restrictions": ["T-47 Airspeeder"]
+                    "restrictions": ["T-47 Airspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb42a0024eb583b20/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Heavy Laser Retrofit": {
                     "points": 16,
-                    "restrictions": ["A-A5 Speeder Truck"]
+                    "restrictions": ["A-A5 Speeder Truck"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb3e8001477dd615a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "AG-2G Quad Laser": {
                     "points": 36,
-                    "restrictions": ["A-A5 Speeder Truck"]
+                    "restrictions": ["A-A5 Speeder Truck"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb49200272ec45746/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "M-45 Ion Blaster": {
                     "points": 38,
-                    "restrictions": ["X-34 Landspeeder"]
+                    "restrictions": ["X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb40300355049a051/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Mark II Medium Blaster": {
                     "points": 34,
-                    "restrictions": ["X-34 Landspeeder"]
+                    "restrictions": ["X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb415002d11999055/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Nose-Mounted Ion Blaster": {
                     "points": 10,
-                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                    "restrictions": ["DSD1 Dwarf Spider Droid"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb441001c6d58eb9f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Nose-Mounted Flamethrower": {
                     "points": 15,
-                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                    "restrictions": ["DSD1 Dwarf Spider Droid"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb4710033576fb9fc/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Nose-Mounted Laser Cannon": {
                     "points": 15,
-                    "restrictions": ["DSD1 Dwarf Spider Droid"]
+                    "restrictions": ["DSD1 Dwarf Spider Droid"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deb481000d0364d53f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },           
             "Heavy Weapon": {
                 "B2-ACM Trooper": {
                     "points": 26,
-                    "restrictions": ["B2 Super Battle Droids"]
+                    "restrictions": ["B2 Super Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debd66000fbac5a386/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "B2-HA Trooper": {
                     "points": 32,
-                    "restrictions": ["B2 Super Battle Droids"]
+                    "restrictions": ["B2 Super Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debdcf0034b71a2b01/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "BX-Series Droid Sniper": {
                     "points": 30,
-                    "restrictions": ["BX-Series Droid Commandos"]
+                    "restrictions": ["BX-Series Droid Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debeca0013313b3c1e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Dioxis Mine Saboteur": {
                     "points": 28,
-                    "restrictions": ["BX-Series Droid Commandos"]
+                    "restrictions": ["BX-Series Droid Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf6500283c370794/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "E-5C B1 Trooper": {
                     "points": 18,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec0230016f7f63d41/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "E-5s B1 Trooper": {
                     "points": 20,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec043000ee9c033e4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "E-60R B1 Trooper": {
                     "points": 20,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec051002c5b42d23a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Radiation Cannon B1 Trooper": {
                     "points": 22,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec27800324c9db80c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Electro-whip MagnaGuard": {
                     "points": 28,
-                    "restrictions": ["IG-100 MagnaGuard"]
+                    "restrictions": ["IG-100 MagnaGuard"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec0860037ea976fe9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "IG-100 MagnaGuard": {
                     "points": 22,
-                    "restrictions": ["IG-100 MagnaGuard"]
+                    "restrictions": ["IG-100 MagnaGuard"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec12f0028e819a8a9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "RPS-6 MagnaGuard": {
                     "points": 28,
-                    "restrictions": ["IG-100 MagnaGuard"]
+                    "restrictions": ["IG-100 MagnaGuard"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec29d0038a1f845e6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },              
                 "Battle Shield Wookiee": {
                     "points": 26,
-                    "restrictions": ["Wookiee Warriors"]
+                    "restrictions": ["Wookiee Warriors"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debddf002ea1fbeb78/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Bowcaster Wookiee": {
                     "points": 26,
-                    "restrictions": ["Wookiee Warriors"]
+                    "restrictions": ["Wookiee Warriors"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debeb900014bd155a1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Long Gun Wookiee": {
                     "points": 26,
-                    "restrictions": ["Wookiee Warriors"]
+                    "restrictions": ["Wookiee Warriors"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec144001fce8009b8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Beskad Duelist": {
                     "points": 28,
-                    "restrictions": ["Mandalorian Resistance"]
+                    "restrictions": ["Mandalorian Resistance"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debdf60032eb7d68d2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Tristan Wren": {
                     "points": 38,
-                    "restrictions": ["Mandalorian Resistance"]
+                    "restrictions": ["Mandalorian Resistance"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec3d90034e4bb3315/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Ursa Wren": {
                     "points": 38,
-                    "restrictions": ["Mandalorian Resistance"]
+                    "restrictions": ["Mandalorian Resistance"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec3f6001d18d30940/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Bistan": {
                     "points": 32,
-                    "restrictions": ["Rebel Pathfinders"]
+                    "restrictions": ["Rebel Pathfinders"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debea3000fd1385f19/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pao": {
                     "points": 22,
-                    "restrictions": ["Rebel Pathfinders"]
+                    "restrictions": ["Rebel Pathfinders"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec24c00320ed905b6/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "CM-0/93 Trooper": {
                     "points": 31,
-                    "restrictions": ["Rebel Veterans"]
+                    "restrictions": ["Rebel Veterans"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debee0000e8dcd7f0e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DH-447 Sniper": {
                     "points": 28,
-                    "restrictions": ["Rebel Commandos"]
+                    "restrictions": ["Rebel Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf3900351ff6eeff/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Proton Charge Saboteur": {
                     "points": 26,
-                    "restrictions": ["Rebel Commandos"]
+                    "restrictions": ["Rebel Commandos"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2610005c89e268a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DLT-20A Trooper": {
                     "points": 26,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debfbf001ef96361e5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "MPL-57 Barrage Trooper": {
                     "points": 33,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Fleet Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec1b600179c8b0558/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "MPL-57 Ion Trooper": {
                     "points": 32,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2050023a6909c53/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }, 
                 "Scatter Gun Trooper": {
                     "points": 23,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Fleet Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2f20033731407c8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }, 
                 "SX-21 Trooper": {
                     "points": 20,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec36e002e89f5a0de/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Z-6 Trooper": {
                     "points": 22,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec44e0010d8910c6b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DC-15 Phase I Trooper": {
                     "points": 30,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debefe002c6df9e337/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DP-23 Phase I Trooper": {
                     "points": 27,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debfea0003bcffbf92/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "RPS-6 Phase I Trooper": {
                     "points": 26,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2ae000aee0b5018/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Z-6 Phase I Trooper": {
                     "points": 25,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec46f0025c964de7b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase II Mortar Trooper": {
                     "points": 25,
-                    "restrictions": ["Phase II Clone Troopers"]
+                    "restrictions": ["Phase II Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec192000aa5de2da5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Z-6 Phase II Trooper": {
                     "points": 27,
-                    "restrictions": ["Phase II Clone Troopers"]
+                    "restrictions": ["Phase II Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec41b00355f7cb9e1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "DC-15x ARC Trooper": {
                     "points": 31,
-                    "restrictions": ["ARC Troopers"]
+                    "restrictions": ["ARC Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf130015579281cd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Echo": {
                     "points": 40,
-                    "restrictions": ["ARC Troopers", "Clone Troopers"]
+                    "restrictions": ["ARC Troopers", "Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec070000d15527225/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Fives": {
                     "points": 36,
-                    "restrictions": ["ARC Troopers", "Clone Troopers"]
+                    "restrictions": ["ARC Troopers", "Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec0d7003017a9d673/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Del Meeko": {
                     "points": 38,
-                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"]
+                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf280016d693629c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Gideon Hask": {
                     "points": 38,
-                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"]
+                    "restrictions": ["Imperial Special Forces", "Imperial Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec0ff00386e6741b4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DLT-19 Stormtrooper": {
                     "points": 24,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf7a0019f32f5157/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "HH-12 Stormtrooper": {
                     "points": 34,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec1200030d7e71cb5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "RT-97C Stormtrooper": {
                     "points": 26,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2c0000cdbc3b512/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-21 Stormtrooper": {
                     "points": 27,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec3c6003a62286b71/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Flametrooper": {
                     "points": 20,
-                    "restrictions": ["Snowtroopers"]
+                    "restrictions": ["Snowtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec34400225d21c208/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-7 Ion Snowtrooper": {
                     "points": 34,
-                    "restrictions": ["Snowtroopers"]
+                    "restrictions": ["Snowtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec38b00053d098a09/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-21B Trooper": {
                     "points": 32,
-                    "restrictions": ["Shoretroopers"]
+                    "restrictions": ["Shoretroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec3a60034ec33d648/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DLT-19x Sniper": {
                     "points": 28,
-                    "restrictions": ["Scout Troopers"]
+                    "restrictions": ["Scout Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debf95002e48e6aa14/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Sonic Charge Saboteur": {
                     "points": 26,
-                    "restrictions": ["Scout Troopers"]
+                    "restrictions": ["Scout Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec3300038ea4ad3d7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DT-F16": {
                     "points": 22,
-                    "restrictions": ["Imperial Death Troopers"]
+                    "restrictions": ["Imperial Death Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66debfff00228f636e44/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "DLT-19D Trooper": {
                     "points": 34,
-                    "restrictions": ["Imperial Death Troopers"]
+                    "restrictions": ["Imperial Death Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec015003362180092/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },    
                 "Electrostaff Guard": {
                     "points": 25,
-                    "restrictions": ["Imperial Royal Guards"]
+                    "restrictions": ["Imperial Royal Guards"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec0bd00249e946c68/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }, 
                 "Mertalizer": {
                     "points": 36,
-                    "restrictions": ["Imperial Dark Troopers"]
+                    "restrictions": ["Imperial Dark Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec182000e7d624d46/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "SM-9 Frag Launcher": {
                     "points": 40,
-                    "restrictions": ["Imperial Dark Troopers"]
+                    "restrictions": ["Imperial Dark Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec31b0025b7258a42/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }, 
                 "XS-IV Assault Cannon": {
                     "points": 48,
-                    "restrictions": ["Imperial Dark Troopers"]
+                    "restrictions": ["Imperial Dark Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec405002f58acc661/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }, 
                 "Electro-whip Soldier": {
                     "points": 10,
-                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec09b002335f538d1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "P13-M Disruptor Soldier": {
                     "points": 24,
-                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec234002ac2984962/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "Mag-Det Enforcer": {
                     "points": 14,
-                    "restrictions": ["Black Sun Enforcers"]
+                    "restrictions": ["Black Sun Enforcers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec165000f8f7ce76b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },  
                 "Scatter Gun Enforcer": {
                     "points": 28,
-                    "restrictions": ["Black Sun Enforcers"]
+                    "restrictions": ["Black Sun Enforcers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec2d700013e194c10/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }              
             },
             "Ordnance": {
                 "Bunker Buster Shells": {
                     "points": 12,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec49c002606c8e9bf/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Armor-Piercing Shells": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec4b50032dd06b9ec/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "High-Energy Shells": {
                     "points": 8,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url" : "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec4ca001f2e1963ee/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "Personnel": {
                 "B1 Battle Droid": {
                     "points": 6,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec5c10027c5a377aa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "B1 Security Droid": {
                     "points": 9,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec5df003a1f167c24/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "OOM-Series Battle Droid": {
                     "points": 12,
-                    "restrictions": ["B1 Battle Droids"]
+                    "restrictions": ["B1 Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec52100307d354fa9/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "B2 Super Battle Droid": {
                     "points": 16,
-                    "restrictions": ["B2 Super Battle Droids"]
+                    "restrictions": ["B2 Super Battle Droids"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec613001b80b2cd26/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "EV-Series Medical Droid": {
                     "points": 14,
-                    "restrictions": ["Droid Troopers"]
+                    "restrictions": ["Droid Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec6b000325e3a5b25/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "PK-Series Worker Droid": {
                     "points": 12,
-                    "restrictions": ["Droid Troopers"]
+                    "restrictions": ["Droid Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec79e002da3c01b45/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-Series Tactical Droid": {
                     "points": 18,
-                    "restrictions": ["Droid Troopers"]
+                    "restrictions": ["Droid Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8eb0012505ea931/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Viper Recon Droid": {
                     "points": 8,
-                    "restrictions": ["Droid Troopers"]
+                    "restrictions": ["Droid Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec90f001f7ed4018b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Commander": {
                     "points": 20,
-                    "restrictions": ["Clone Troopers"]
+                    "restrictions": ["Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec657001cee4db73e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Comms Technician": {
                     "points": 12,
-                    "restrictions": ["Clone Troopers"]
+                    "restrictions": ["Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec66f0038807cd3e8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Engineer": {
                     "points": 18,
-                    "restrictions": ["Clone Troopers"]
+                    "restrictions": ["Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec68500378969c031/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Medic": {
                     "points": 20,
-                    "restrictions": ["Clone Troopers"]
+                    "restrictions": ["Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec698001a22ea6865/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase I Clone Trooper": {
                     "points": 13,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7180037aeccbcf5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase I Clone Captain": {
                     "points": 17,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec770002ed5528119/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase I Clone Specialist": {
                     "points": 17,
-                    "restrictions": ["Phase I Clone Troopers"]
+                    "restrictions": ["Phase I Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7810035ddf6b1a2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Phase II Clone Trooper": {
                     "points": 15,
-                    "restrictions": ["Phase II Clone Troopers"]
+                    "restrictions": ["Phase II Clone Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec75c003bb8dbb6d7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "2-1B Medical Droid": {
                     "points": 18,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec5a3000adfff44c5/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "R5 Astromech Droid": {
                     "points": 8,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7f1001bd71f3bb2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Rebel Comms Technician": {
                     "points": 9,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8080027c7c3e6c3/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Rebel Officer": {
                     "points": 19,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec85a0002088394e3/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Fleet Trooper": {
                     "points": 11,
-                    "restrictions": ["Fleet Troopers"]
+                    "restrictions": ["Fleet Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec6c4000624d53b0a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Trooper": {
                     "points": 10,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec829001e8a68e5e1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Trooper Captain": {
                     "points": 14,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec86d00170d4b79d0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Trooper Specialist": {
                     "points": 14,
-                    "restrictions": ["Rebel Troopers"]
+                    "restrictions": ["Rebel Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec87d001baa7d4247/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Rebel Veteran": {
                     "points": 12,
-                    "restrictions": ["Rebel Veterans"]
+                    "restrictions": ["Rebel Veterans"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec841002cc9a0c52d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "FX-9 Medical Droid": {
                     "points": 19,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec6e00022ac5d5c17/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Imperial Comms Technician": {
                     "points": 10,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec6f7003a161c480b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Imperial Officer": {
                     "points": 20,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec708003c78c8302a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "R4 Astromech Droid": {
                     "points": 9,
                     "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7dd0004bdb88772/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Shoretrooper": {
                     "points": 13,
-                    "restrictions": ["Shoretroopers"]
+                    "restrictions": ["Shoretroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec893000e893bad7a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Snowtrooper": {
                     "points": 13,
-                    "restrictions": ["Snowtroopers"]
+                    "restrictions": ["Snowtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8a70026e5738ab7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Stormtrooper": {
                     "points": 11,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8b7000cfd29a937/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Stormtrooper Captain": {
                     "points": 15,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8c600324889ad13/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Stormtrooper Specialist": {
                     "points": 15,
-                    "restrictions": ["Stormtroopers"]
+                    "restrictions": ["Stormtroopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec8d600156235f987/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Black Sun Enforcer": {
                     "points": 11,
-                    "restrictions": ["Black Sun Enforcers"]
+                    "restrictions": ["Black Sun Enforcers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec62b0026ddfed67e/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Black Sun Vigo": {
                     "points": 18,
-                    "restrictions": ["Black Sun Enforcers"]
+                    "restrictions": ["Black Sun Enforcers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec6440027a7a7e256/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Capo": {
                     "points": 16,
-                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7b400306441e6d4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Pyke Syndicate Foot Soldier": {
                     "points": 9,
-                    "restrictions": ["Pyke Syndicate Foot Soldiers"]
+                    "restrictions": ["Pyke Syndicate Foot Soldiers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec7cc003d5d0a8f95/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "Pilot": {
                 "Baron Rudor": {
                     "points": 12,
                     "restrictions": ["Repulsor Vehicle"],
-                    "faction": "Empire"
+                    "faction": "Empire",
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66dec984001c4952d28c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Imperial Tie Pilot": {
                     "points": 8,
                     "restrictions": ["Repulsor Vehicle"],
-                    "faction": "Empire"
+                    "faction": "Empire",
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca4a002243c95d87/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "General Weiss": {
                     "points": 10,
                     "restrictions": ["Ground Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb9c001976551f32/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Imperial Hammers Elite Armor Pilot": {
                     "points": 10,
                     "restrictions": ["Ground Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb670020ebef1875/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "First Sergeant Arbmab": {
                     "points": 5,
                     "restrictions": ["Ground Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb0d001a05fdeffd/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Governor Pryce": {
                     "points": 10,
                     "restrictions": ["Heavy"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb8c000fe548a674/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Empire"
                 },
                 "Hotshot Pilot": {
                     "points": 8,
                     "restrictions": ["Repulsor Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb550031d8ff19e4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Outer Rim Speeder Jockey": {
                     "points": 10,
                     "restrictions": ["Repulsor Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decbbb001e516da2b1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Ryder Azadi": {
                     "points": 5,
                     "restrictions": ["Repulsor Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decbd7002e4f87da80/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Wedge Antilles": {
                     "points": 5,
                     "restrictions": ["Repulsor Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decbab00318d5fd506/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Shriv Suurgav": {
                     "points": 10,
                     "restrictions": ["Heavy"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb7900072123fe89/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Reckless Driver": {
                     "points": 6,
-                    "restrictions": ["A-A5 Speeder Truck"]
+                    "restrictions": ["A-A5 Speeder Truck"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca2100007db1ad03/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "327th Star Corps Elite Armor Pilots": {
                     "points": 5,
-                    "restrictions": ["Infantry Support Platform"]
+                    "restrictions": ["Infantry Support Platform"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca96000492d7edac/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Aayla Secura": {
                     "points": 5,
-                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca64000c7c77af93/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Plo Koon": {
                     "points": 9,
-                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decaf800018283db89/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Veteran Clone Pilot": {
                     "points": 7,
-                    "restrictions": ["TX-130 Saber-Class Fighter Tank"]
+                    "restrictions": ["TX-130 Saber-Class Fighter Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca770036ecbb9f2a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Clone Commander Fox": {
                     "points": 10,
                     "restrictions": ["LAAT/LE Patrol Transport"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decad70020867ec09f/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Republic"
                 },
                 "Clone Shock Trooper Pilot": {
                     "points": 4,
                     "restrictions": ["LAAT/LE Patrol Transport"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca34003af1968c76/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Republic"
                 },
                 "Hound & Grizzler": {
                     "points": 8,
                     "restrictions": ["LAAT/LE Patrol Transport"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decaea003433bf5157/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Republic"
                 },
                 "Lok Durd": {
                     "points": 9,
-                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                    "restrictions": ["AAT Trade Federation Battle Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deca84003caa15b241/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "OOM-Series Droid Pilot": {
                     "points": 7,
-                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                    "restrictions": ["AAT Trade Federation Battle Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decabe0011af2b1927/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "T-Series Tactical Droid Pilot": {
                     "points": 5,
-                    "restrictions": ["AAT Trade Federation Battle Tank"]
+                    "restrictions": ["AAT Trade Federation Battle Tank"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decb31002b69c74602/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Frenzied Gunner": {
                     "points": 5,
                     "restrictions": ["Heavy"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decc6d001f404046aa/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Mercenaries"
                 },
                 "Raiding Party Leader": {
                     "points": 10,
                     "restrictions": ["Heavy"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decc7f0038c3beefa2/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Mercenaries"
                 }
 
@@ -2115,112 +2336,138 @@
             "Protocol": {
                 "Attack Protocols": {
                     "points": 3,
-                    "restrictions": ["Vehicle"]
+                    "restrictions": ["Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deccad00050367bab8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Defense Protocols": {
                     "points": 3,
-                    "restrictions": ["Vehicle"]
+                    "restrictions": ["Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decce200231319d943/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Engagement Protocols": {
                     "points": 5,
-                    "restrictions": ["Vehicle"]
+                    "restrictions": ["Vehicle"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deccf10015037336e4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Bounty Programming": {
                     "points": 5,
-                    "restrictions": ["IG-11"]
+                    "restrictions": ["IG-11"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deccd3002071d6ca34/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Nanny Programming": {
                     "points": 0,
                     "restrictions": ["IG-11"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decd040019831d75df/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05",
                     "faction": "Rebels"
                 },
                 "Programmed Loyalty": {
                     "points": 5,
-                    "restrictions": ["Imperial Dark Troopers"]
+                    "restrictions": ["Imperial Dark Troopers"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decd21001c2da0063c/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "Command": {                
                 "Underworld Connections": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decdd000102ae2a8c1/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Lead by example": {
                     "points": 8,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decdb4000c3a0c6d81/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Vigilance": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decde100153e459b27/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Strict Orders": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decdc2003c3be90a29/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Inspiring Presence": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decda5000edc6b144d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Improvised Orders": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decd9500367e691110/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Esteemed Leader": {
                     "points": 5,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decd6b002b6841caeb/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Commanding Presence": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decdee002aa6488cf4/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Aggressive Tactics": {
                     "points": 10,
-                    "restrictions": []
+                    "restrictions": [],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decdff0009b279dc3a/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             },
             "Crew": {
                 "Unstable R5 Astromech": {
                     "points": 6,
-                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"]
+                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf71001921ef69cf/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Refurbished Gonk Droid": {
                     "points": 10,
-                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"]
+                    "restrictions": ["A-A5 Speeder Truck", "X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decee3003cf4365a00/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Unorthodox Tactician": {
                     "points": 10,
-                    "restrictions": ["A-A5 Speeder Truck"]
+                    "restrictions": ["A-A5 Speeder Truck"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decec3002968134502/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Backworld Medic": {
                     "points": 12,
-                    "restrictions": ["A-A5 Speeder Truck"]
+                    "restrictions": ["A-A5 Speeder Truck"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf2400049113e52d/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "RPS-6 Rocket Gunner": {
                     "points": 36,
-                    "restrictions": ["X-34 Landspeeder"]
+                    "restrictions": ["X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf8000372568f9b0/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "A-300 Rifle Gunner": {
                     "points": 9,
-                    "restrictions": ["X-34 Landspeeder"]
+                    "restrictions": ["X-34 Landspeeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf980032caf755f7/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Gnasp Gunner": {
                     "points": 25,
-                    "restrictions": ["Raddaugh Gnasp Fluttercraft"]
+                    "restrictions": ["Raddaugh Gnasp Fluttercraft"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf150029ef8bf773/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "Gnasp Bombardier": {
                     "points": 20,
-                    "restrictions": ["Raddaugh Gnasp Fluttercraft"]
+                    "restrictions": ["Raddaugh Gnasp Fluttercraft"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66deced1000f877ded3b/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "BARC Twin Laser Gunner": {
                     "points": 18,
-                    "restrictions": ["BARC Speeder"]
+                    "restrictions": ["BARC Speeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf37001cecf757a8/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "BARC RPS-6 Gunner": {
                     "points": 26,
-                    "restrictions": ["BARC Speeder"]
+                    "restrictions": ["BARC Speeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf6100132009b329/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 },
                 "BARC Ion Gunner": {
                     "points": 28,
-                    "restrictions": ["BARC Speeder"]
+                    "restrictions": ["BARC Speeder"],
+                    "image_url": "https://cloud.appwrite.io/v1/storage/buckets/66d6fc2b00101896f4c1/files/66decf0300390684d579/view?project=66d5b78400393e0aca05&project=66d5b78400393e0aca05"
                 }
             }
         } 
