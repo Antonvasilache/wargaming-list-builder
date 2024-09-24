@@ -77,9 +77,6 @@ class App:
         
         self.setup_list_builder(selected_faction)
         
-    # def save_current_list(self, army_list):
-    #     filename = "army_list.pkl"
-    #     army_list.save_list(filename)
         
     def setup_list_builder(self, selected_faction, existing_list=None):  
         faction = Faction(selected_faction)

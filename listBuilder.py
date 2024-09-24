@@ -65,18 +65,7 @@ class ListBuilder:
                 pickle.dump(self, file)
             print(f"List saved successfully to {filename}")
         except Exception as e:
-            print(f"Error saving list: {e}")
-            
-    
-    # def load_list(self, filename):
-    #     try:
-    #         with open(filename, 'rb') as file:
-    #             army_list = pickle.load(file)
-    #         print(f"List loaded successfully from {filename}")
-    #         return army_list
-    #     except Exception as e:
-    #         print(f"error loading list: {e}")
-    #         return None
+            print(f"Error saving list: {e}")   
     
     def clear_list(self):
         # add 'are you sure' message
