@@ -3,10 +3,10 @@ from unit import Unit
 from window import Window
 from faction import Faction
 from listBuilder import ListBuilder
-from tkinter import Label, Frame, Button, Canvas, Scrollbar
+from tkinter import Label, Frame, Button, Canvas, Scrollbar, filedialog, simpledialog
 from PIL import Image, ImageTk
 import json
-import os
+import pickle
 
 
 class App:
@@ -19,7 +19,42 @@ class App:
         
     def load_game_data(self, file_path):        
         with open(file_path, 'r') as file:
-            return json.load(file)   
+            return json.load(file)  
+        
+    def load_list(self):
+        filename = filedialog.askopenfilename(
+            title="Open Army List",
+            filetypes=[("Pickle files", "*.pkl"), ("All files", "*.*")]
+        )
+        
+        if filename:
+            army_list = self.load_list_file(filename)
+            if army_list:
+                faction_name = army_list.faction.name
+                faction = Faction(faction_name)
+                max_points = army_list.max_points
+                new_list = ListBuilder(faction, max_points)
+                
+                new_list.current_unit_types = army_list.current_unit_types
+                new_list.current_points = army_list.current_points
+                new_list.activations = army_list.activations
+                new_list.selected_units = army_list.selected_units
+                
+                self.window.clear_widgets()
+                self.setup_list_builder(faction_name, new_list)                
+                for unit in new_list.selected_units:
+                    self.add_unit_to_list(unit.name, faction, new_list, loaded_list=True)
+                    
+    
+    def load_list_file(self, filename):
+        try:
+            with open(filename, 'rb') as file:
+                army_list = pickle.load(file)
+            return army_list
+        except Exception as e:
+            print(f"error loading list: {e}")
+            return None
+         
         
     def setup_start_menu(self):
         self.window.clear_widgets()  
@@ -27,6 +62,12 @@ class App:
         
         for faction_name in self.faction_names:
             self.window.add_button(faction_name, command=lambda name=faction_name: self.select_faction(name))
+            
+        self.window.add_button(
+            "Load list", 
+            command=self.load_list,
+            font=("Helvetica", 12, "bold"), 
+            pady=40)
             
     
     def select_faction(self, faction_name):
@@ -40,9 +81,9 @@ class App:
     #     filename = "army_list.pkl"
     #     army_list.save_list(filename)
         
-    def setup_list_builder(self, selected_faction):  
+    def setup_list_builder(self, selected_faction, existing_list=None):  
         faction = Faction(selected_faction)
-        army_list = ListBuilder(faction, 1000)
+        army_list = existing_list if existing_list else ListBuilder(faction, 1000)
         
         # Menu frame
         menu_frame = Frame(self.window.root, pady=10)
@@ -276,7 +317,7 @@ class App:
             )
         details_label.pack(pady=10)
     
-    def add_unit_to_list(self, unit_name, faction, army):
+    def add_unit_to_list(self, unit_name, faction, army, loaded_list=False):  
         unit_info = faction.available_units[unit_name]
         points = unit_info['points']
         type = unit_info['unit_type'] 
@@ -285,10 +326,13 @@ class App:
         keywords = unit_info['keywords']  
            
         new_unit = Unit(unit_name, points, type, upgrades, unique, keywords) 
-        if new_unit.unique == 0 or new_unit not in army.selected_units:         
-            army.add_unit(new_unit)   
-            
-            print("current points:", army.current_points)
+        if (
+            new_unit.unique == 0 
+            or new_unit not in army.selected_units
+            or loaded_list
+            ): 
+            if not loaded_list:  
+                army.add_unit(new_unit) 
             
             # Frame to hold the unit label and the remove button on the same row
             unit_frame = Frame(self.selected_inner_frame)
@@ -419,7 +463,6 @@ class App:
                            
                 for slot in unit.upgrade_slots:
                     if slot['type'] == upgrade_type and slot['upgrade'] is None:
-                        print("upgrade being added to gui")
                         self.add_upgrade_to_list(upgrade_name, upgrade_value, upgrade_type, unit, army)                        
                         return
             
@@ -435,7 +478,6 @@ class App:
             add_button.pack(side='right', pady=5)            
         
     def add_upgrade_to_list(self, upgrade_name, upgrade_value, upgrade_type, unit, army):
-        print(f"{upgrade_name} upgrade being added to list, for unit {unit.name}")
         for frame in self.selected_inner_frame.winfo_children():
             unit_row_frame = frame.winfo_children()[0]
             
@@ -536,8 +578,6 @@ class App:
             text=f'Activations: {army.activations}, Points: {army.current_points}/1000',
             fg=color
         )
-        
-        print(f"Updating points to: {army.current_points}")
 
     def run(self):
         self.window.start()

@@ -54,9 +54,11 @@ class ListBuilder:
         if not list_name:
             return
         
+        current_directory = os.path.join(os.getcwd(), "saved lists")
         filename = f"{list_name}.pkl"        
-        current_directory = os.getcwd()
         file_path = os.path.join(current_directory, filename)
+        
+        os.makedirs(current_directory, exist_ok=True)
         
         try:
             with open(file_path, 'wb') as file:
@@ -66,15 +68,15 @@ class ListBuilder:
             print(f"Error saving list: {e}")
             
     
-    def load_list(self, filename):
-        try:
-            with open(filename, 'rb') as file:
-                army_list = pickle.load(file)
-            print(f"List loaded successfully from {filename}")
-            return army_list
-        except Exception as e:
-            print(f"error loading list: {e}")
-            return None
+    # def load_list(self, filename):
+    #     try:
+    #         with open(filename, 'rb') as file:
+    #             army_list = pickle.load(file)
+    #         print(f"List loaded successfully from {filename}")
+    #         return army_list
+    #     except Exception as e:
+    #         print(f"error loading list: {e}")
+    #         return None
     
     def clear_list(self):
         # add 'are you sure' message
