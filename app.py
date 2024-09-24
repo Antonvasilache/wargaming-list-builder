@@ -354,10 +354,9 @@ class App:
                     unit_frame.destroy(), 
                     self.update_current_unit_types(army, type), 
                     self.update_points_status(army, self.points_status_label)
-                    ),
-                padx=5, pady=5
+                    )
             )
-            remove_button.pack(side='right')
+            remove_button.pack(side='right', pady=5)
 
             # Frame to hold the upgrade type buttons
             upgrade_types_frame = Frame(unit_frame)
@@ -505,10 +504,9 @@ class App:
                             remove_update_visual(),
                             unit.remove_upgrade(upgrade_name, upgrade_type, army),
                             self.update_points_status(army, self.points_status_label)
-                            ),
-                        padx=5, pady=5
+                            )
                     )
-                    remove_button.pack(side='right', padx=(0,5), pady=5)
+                    remove_button.pack(side='right', pady=5)
                     
                     if len(frame.winfo_children()) > 1:
                         upgrade_frame.pack(before=frame.winfo_children()[1], pady=5, fill='x')
