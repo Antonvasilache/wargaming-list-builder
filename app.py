@@ -3,7 +3,7 @@ from unit import Unit
 from window import Window
 from faction import Faction
 from listBuilder import ListBuilder
-from tkinter import Label, Frame, Button, Canvas, Scrollbar, filedialog, simpledialog
+from tkinter import Label, Frame, Button, Canvas, Scrollbar, filedialog
 from PIL import Image, ImageTk
 import json
 import pickle
